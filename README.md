@@ -20,8 +20,8 @@ The main map in the center of the page can be easily interacted with, you can se
 
 ## TimeLine 
 
-- D1 (09/03/21) Data Setup  
-- D2 (09/04/21) Js and functionality 
+- D1 (09/03/21) Data Setup - research and compile foraging data 
+- D2 (09/04/21) Js and functionality - build out food and park objects 
 - D3 (09/05/21) Js and functionality 
 - D4 (09/06/21) HTML Skeleton and CSS start
 - D5 (09/07/21) map and images for items 

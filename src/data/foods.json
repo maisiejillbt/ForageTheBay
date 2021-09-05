@@ -1,0 +1,554 @@
+[
+  {
+    "foodName": "Blackberries",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://calscape.org/Rubus-ursinus-(Pacific-Blackberry)",
+    "photo": "../../dist/assets/blackberries.jpeg",
+    "type": "berry"
+  },
+  {
+    "foodName": "Blackberries",
+    "park": "GG",
+    "season": "summer",
+    "wiki": "https://calscape.org/Rubus-ursinus-(Pacific-Blackberry)",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Blackberries",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://calscape.org/Rubus-ursinus-(Pacific-Blackberry)",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Blackberries",
+    "park": "GG",
+    "season": "fall",
+    "wiki": "https://calscape.org/Rubus-ursinus-(Pacific-Blackberry)",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Raspberries",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://calscape.org/loc-California/Rubus-leucodermis-(Western-Raspberry)?srchcr=sc6132b050e07f0",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Thimbleberries",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://calscape.org/Rubus-parviflorus-(Western-Thimbleberry)?srchcr=sc6132b096de007",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Gooseberries",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://calscape.org/Ribes-inerme-(Whitestem-Gooseberry)?srchcr=sc6132b0dd6524d",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Gooseberries",
+    "park": "PR",
+    "season": "spring",
+    "wiki": "https://calscape.org/Ribes-inerme-(Whitestem-Gooseberry)?srchcr=sc6132b0dd6524d",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Salmonberries",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://calscape.org/loc-California/Salmon%20Berry%20(Rubus%20spectabilis)?newsearch=1",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Salmonberries",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://calscape.org/loc-California/Salmon%20Berry%20(Rubus%20spectabilis)?newsearch=1",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Huckleberries",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://calscape.org/loc-California/Vaccinium-ovatum-(Huckleberry)?srchcr=sc6132b183ede11",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Huckleberries",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://calscape.org/loc-California/Vaccinium-ovatum-(Huckleberry)?srchcr=sc6132b183ede11",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "Apples",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Apple",
+    "photo": "",
+    "type": "fruit"
+  },
+  {
+    "foodName": "Apples",
+    "park": "GG",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Apple",
+    "photo": "",
+    "type": "fruit"
+  },
+  {
+    "foodName": "Chanterelle",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chanterelle",
+    "park": "PR",
+    "season": "winter",
+    "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chanterelle",
+    "park": "SP",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chanterelle",
+    "park": "SP",
+    "season": "winter",
+    "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chicken of The Woods",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chicken of The Woods",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chicken of The Woods",
+    "park": "PR",
+    "season": "spring",
+    "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chicken of The Woods",
+    "park": "PR",
+    "season": "winter",
+    "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chicken of The Woods",
+    "park": "SP",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chicken of The Woods",
+    "park": "SP",
+    "season": "summer",
+    "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chicken of The Woods",
+    "park": "SP",
+    "season": "spring",
+    "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Chicken of The Woods",
+    "park": "SP",
+    "season": "winter",
+    "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Bolete",
+    "park": "SP",
+    "season": "summer",
+    "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Bolete",
+    "park": "SP",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Bolete",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Bolete",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
+    "photo": "",
+    "type": "mushroom"
+  },
+  {
+    "foodName": "Bull Kelp",
+    "park": "GG",
+    "season": "spring",
+    "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Bull Kelp",
+    "park": "GG",
+    "season": "summer",
+    "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Bull Kelp",
+    "park": "GG",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Bull Kelp",
+    "park": "GG",
+    "season": "winter",
+    "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Bull Kelp",
+    "park": "PR",
+    "season": "spring",
+    "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Bull Kelp",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Bull Kelp",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Bull Kelp",
+    "park": "PR",
+    "season": "winter",
+    "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Kombu",
+    "park": "GG",
+    "season": "spring",
+    "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Kombu",
+    "park": "GG",
+    "season": "summer",
+    "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Kombu",
+    "park": "GG",
+    "season": "fall",
+    "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Kombu",
+    "park": "GG",
+    "season": "winter",
+    "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Kombu",
+    "park": "PR",
+    "season": "spring",
+    "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Kombu",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Kombu",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Kombu",
+    "park": "PR",
+    "season": "winter",
+    "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Wakame",
+    "park": "PR",
+    "season": "spring",
+    "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Wakame",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Wakame",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Wakame",
+    "park": "PR",
+    "season": "winter",
+    "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Wakame",
+    "park": "GG",
+    "season": "spring",
+    "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Wakame",
+    "park": "GG",
+    "season": "summer",
+    "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Wakame",
+    "park": "GG",
+    "season": "fall",
+    "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Wakame",
+    "park": "GG",
+    "season": "winter",
+    "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Sea Lettuce",
+    "park": "GG",
+    "season": "spring",
+    "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Sea Lettuce",
+    "park": "GG",
+    "season": "summer",
+    "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Sea Lettuce",
+    "park": "GG",
+    "season": "fall",
+    "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Sea Lettuce",
+    "park": "GG",
+    "season": "winter",
+    "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Sea Lettuce",
+    "park": "PR",
+    "season": "spring",
+    "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Sea Lettuce",
+    "park": "PR",
+    "season": "summer",
+    "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Sea Lettuce",
+    "park": "PR",
+    "season": "fall",
+    "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Sea Lettuce",
+    "park": "PR",
+    "season": "winter",
+    "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
+    "photo": "",
+    "type": "seaweed"
+  },
+  {
+    "foodName": "Plum",
+    "park": "GG",
+    "season": "summer",
+    "wiki": "https://en.wikipedia.org/wiki/Plum",
+    "photo": "",
+    "type": "fruit"
+  },
+  {
+    "foodName": "Fig",
+    "park": "GG",
+    "season": "summer",
+    "wiki": "https://en.wikipedia.org/wiki/Fig",
+    "photo": "",
+    "type": "fruit"
+  },
+  {
+    "foodName": "California Black Walnut",
+    "park": "NA",
+    "season": "fall",
+    "wiki": "https://en.wikipedia.org/wiki/Juglans_californica",
+    "photo": "",
+    "type": "nut"
+  },
+  {
+    "foodName": "American Elderberry",
+    "park": "NA",
+    "season": "summer",
+    "wiki": "https://plants.ces.ncsu.edu/plants/sambucus-canadensis/",
+    "photo": "",
+    "type": "berry"
+  },
+  {
+    "foodName": "California Native Currant",
+    "park": "NA",
+    "season": "summer",
+    "wiki": "https://calscape.org/loc-California/Currant%20(all)/vw-list?view_style=list#:~:text=Known%20by%20the%20common%20names",
+    "photo": "that%20of%20cloves%20or%20vanilla.",
+    "type": ""
+  },
+  {
+    "foodName": "California Bay Laurel",
+    "park": "NA",
+    "season": "all",
+    "wiki": "https://en.wikipedia.org/wiki/Umbellularia",
+    "photo": "",
+    "type": "herb"
+  },
+  {
+    "foodName": "Lambsquarter",
+    "park": "NA",
+    "season": "summer",
+    "wiki": "https://www.mofga.org/resources/greens/lambsquarters/",
+    "photo": "",
+    "type": "veg"
+  }
+]
