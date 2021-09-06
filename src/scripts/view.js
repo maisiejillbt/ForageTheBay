@@ -1,5 +1,7 @@
 const data = require("./data.js")
 const food = require("./food.js")
+const park = require("./park.js")
+
 
 // setup initial view state (initiate the map)
 // have all event listeners here
