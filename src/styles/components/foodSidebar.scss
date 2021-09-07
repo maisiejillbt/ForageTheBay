@@ -1,10 +1,11 @@
 .food-sidebar {
+  opacity: .5;
   background-color: white;
-  height: 400px; // will likely change 
-  width: 20%;
+  min-height: 100vh; // will likely change 
+  width: 25%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
    .food-sidebar {
       width: 100%;
    }
