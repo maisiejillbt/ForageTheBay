@@ -13,6 +13,20 @@
 img {
   max-width: 200px;
   height:fit-content;
+  opacity: 0;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 @media only screen and (max-width: 1000px) {

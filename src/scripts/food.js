@@ -16,6 +16,7 @@ class Food {
     foodIcon.id = `${this.foodId}`;
     foodIcon.classList.add('food-icon');
 
+
     foodSidebar.appendChild(foodIcon);
   }
 

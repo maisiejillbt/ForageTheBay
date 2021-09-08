@@ -13,6 +13,14 @@ a {
   left: 500px;
   max-width: 270px;
   display:none;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 @media only screen and (max-width: 1000px) {
