@@ -3,21 +3,9 @@
   \*************************************************************************************************************************************/
 @font-face {
   font-family: "Swear Display";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/SwearDisplayDemo-Regular copy.otf") format("opentype");
-}
-@font-face {
-  font-family: "Swear Display";
   font-style: italic;
   font-weight: normal;
   src: url("./assets/fonts/SwearDeckDemo-MediumCilati.otf") format("opentype");
-}
-@font-face {
-  font-family: "Hatton";
-  font-style: normal;
-  font-weight: thin;
-  src: url("./assets/fonts/PPHatton-Ultralight.otf") format("opentype");
 }
 html {
   padding: 0;
@@ -42,10 +30,6 @@ button {
 svg {
   margin: 0;
   padding: 0;
-}
-
-.season {
-  fill: #2A3C24;
 }
 
 .main-content {
@@ -84,12 +68,13 @@ header {
 .food-sidebar {
   height: 100vh;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
   flex-shrink: 7;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: flex-start;
+  overflow-x: scroll;
 }
 
 img {
@@ -99,9 +84,9 @@ img {
 
 @media only screen and (max-width: 1000px) {
   .food-sidebar {
+    margin-top: 50px;
     max-height: 100vh;
     width: 100%;
-    overflow-x: scroll;
   }
 }
 .map-container {
@@ -122,6 +107,19 @@ img {
   stroke-miterlimit: 10;
 }
 
+.season {
+  fill: #2A3C24;
+}
+
+.park:hover {
+  filter: drop-shadow(3px 0 4px #2A3C24);
+  overflow: hidden;
+}
+
+.underline {
+  display: none;
+}
+
 #SP {
   -webkit-animation: 3.75s ease 0s normal forwards 1 fadein;
   animation: 3.75s ease 0s normal forwards 1 fadein;
@@ -138,17 +136,6 @@ img {
   -webkit-animation: 11s ease 0s normal forwards 1 fadein;
   animation: 11s ease 0s normal forwards 1 fadein;
   fill: #B09976;
-}
-
-.park:hover {
-  filter: drop-shadow(3px 0 4px #2A3C24);
-  overflow: hidden;
-}
-
-.underline {
-  display: none;
-  -webkit-animation: 0s ease 0s normal forwards 1 fadein;
-  animation: 0s ease 0s normal forwards 1 fadein;
 }
 
 #springUnderline {
@@ -259,6 +246,7 @@ a {
 .food-info {
   position: absolute;
   left: 500px;
+  max-width: 270px;
   display: none;
 }
 

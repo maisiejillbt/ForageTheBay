@@ -16,6 +16,23 @@
   stroke-miterlimit:10;
 }
 
+.season{
+  fill:$kombuGreen;
+}
+
+.season:hover { // need to get the hover to work and to fade in 
+  
+}
+
+.park:hover{ 
+  filter: drop-shadow(3px 0 4px $kombuGreen);
+  overflow:hidden;
+}
+
+.underline {
+  display:none;
+}
+
 #SP{
   -webkit-animation: 3.75s ease 0s normal forwards 1 fadein;
   animation: 3.75s ease 0s normal forwards 1 fadein;
@@ -34,24 +51,12 @@
   fill:#B09976;
 }
 
-.park:hover{ 
-  filter: drop-shadow(3px 0 4px $kombuGreen);
-  overflow:hidden;
-}
-
-.underline {
-  display:none;
-  -webkit-animation: 0s ease 0s normal forwards 1 fadein;
-  animation: 0s ease 0s normal forwards 1 fadein;
-}
-
 #springUnderline{
   fill:#EFF1C5;
 }
 
 #summerUnderline {
   fill:#AFBF99;
-
 }
 
 #fallUnderline {
@@ -60,9 +65,6 @@
 
 #winterUnderline{
   fill:#B09976;
-}
-.season:hover {
-  
 }
 
 #spring {
@@ -85,8 +87,6 @@
   animation: 6s ease 0s normal forwards 1 fadein;
 }
 
-
-
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
@@ -95,10 +95,8 @@
 
 @media only screen and (max-width: 1000px) {
    .map-container {
-      // max-height: 100vh;
       max-width: 500px;
       order:-1;
-    
    }
 }
 

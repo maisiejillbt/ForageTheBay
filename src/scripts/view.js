@@ -34,7 +34,9 @@ class View {
         currentFood.wiki,
         currentFood.photo);
 
-      foodObj.generateFoodDiv(); // generating div and rendering
+      foodObj.generateFoodSidebar(); // generating div and rendering
+      foodObj.generateFoodInfo(); // generating div and rendering
+
     }
   }
 

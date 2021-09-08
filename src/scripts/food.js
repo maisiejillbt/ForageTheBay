@@ -8,16 +8,23 @@ class Food {
     this.photo = photo;
   }
 
-  generateFoodDiv() { // this needs to be reworked into two functions
+  generateFoodSidebar() {
     const foodSidebar = document.querySelector('.food-sidebar');
+    const foodIcon = document.createElement('img');
+
+    foodIcon.src = this.photo;
+    foodIcon.id = `${this.foodId}`;
+    foodIcon.classList.add('food-icon');
+
+    foodSidebar.appendChild(foodIcon);
+  }
+
+  generateFoodInfo() { 
+    const foodInfoContainer = document.querySelector('.food-container');
+
     const foodDiv = document.createElement('div');
     const foodName = document.createElement('h2');
     const foodURL = document.createElement('a');
-    const foodInfoContainer = document.querySelector('.food-container');
-    const foodIcon = document.createElement('img');
-    foodIcon.src = this.photo; // THIS IS A DUMMY IMAGE
-    foodIcon.id = `${this.foodId}`;
-    foodIcon.classList.add('food-icon');
 
     foodDiv.classList.add('food-info');
     foodDiv.id = `${this.foodId}`;
@@ -31,7 +38,6 @@ class Food {
     foodDiv.appendChild(foodURL);
 
     foodInfoContainer.appendChild(foodDiv);
-    foodSidebar.appendChild(foodIcon);
   }
 }
 
