@@ -10,8 +10,8 @@
 	.st4{font-size:100px;}
 </style>
 <g>
-	<text transform="matrix(1 0 0 1 1039.1426 154.7856)" class="st0 st1">Autum</text>
-	<text transform="matrix(1 0 0 1 1039.1426 154.7856)" class="st0 st1">Autum</text>
+	<text transform="matrix(1 0 0 1 1039.1426 154.7856)" class="st0 st1">Autumn</text>
+	<text transform="matrix(1 0 0 1 1039.1426 154.7856)" class="st0 st1">Autumn</text>
 	<rect x="549" y="186" class="st2" width="894" height="822"/>
 	<path d="M1441,188v818H551V188H1441 M1445,184H547v826h898V184z"/>
 	<rect x="1476" y="186" class="st2" width="146" height="146"/>
@@ -53,7 +53,7 @@
 	<text transform="matrix(1 0 0 1 1688.3574 273.4287)" class="st0 st1">food</text>
 	<text transform="matrix(1 0 0 1 579.7148 155)" class="st0 st1">Spring</text>
 	<text transform="matrix(1 0 0 1 789.7148 155)" class="st0 st1">Summer</text>
-	<text transform="matrix(1 0 0 1 1039.1426 154.7856)" class="st0 st1">Autum</text>
+	<text transform="matrix(1 0 0 1 1039.1426 154.7856)" class="st0 st1">Autumn</text>
 	<text transform="matrix(1 0 0 1 1264.1426 154.7856)" class="st0 st1">Winter</text>
 </g>
 </svg>

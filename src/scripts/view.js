@@ -98,12 +98,12 @@ class View {
   addOnClicks(){
     let spring = document.querySelector('#spring')
     let summer = document.querySelector('#summer')
-    let autum = document.querySelector('#autum')
+    let autumn = document.querySelector('#autumn')
     let winter = document.querySelector('#winter')
 
     spring.addEventListener("click", this.mapClickHandler.bind(this,'','spring'));
     summer.addEventListener("click", this.mapClickHandler.bind(this,'','summer'));
-    autum.addEventListener("click", this.mapClickHandler.bind(this,'','fall'));
+    autumn.addEventListener("click", this.mapClickHandler.bind(this,'','fall'));
     winter.addEventListener("click", this.mapClickHandler.bind(this,'','winter'));
 
     let SP = document.querySelector('#SP')
