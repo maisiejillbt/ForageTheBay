@@ -1,5 +1,6 @@
 [
   {
+    "foodId": 1,
     "foodName": "Blackberries",
     "park": "PR",
     "season": "summer",
@@ -8,6 +9,7 @@
     "type": "berry"
   },
   {
+    "foodId": 1,
     "foodName": "Blackberries",
     "park": "GG",
     "season": "summer",
@@ -16,6 +18,7 @@
     "type": "berry"
   },
   {
+    "foodId": 1,
     "foodName": "Blackberries",
     "park": "PR",
     "season": "fall",
@@ -24,6 +27,7 @@
     "type": "berry"
   },
   {
+    "foodId": 1,
     "foodName": "Blackberries",
     "park": "GG",
     "season": "fall",
@@ -32,6 +36,7 @@
     "type": "berry"
   },
   {
+    "foodId": 2,
     "foodName": "Raspberries",
     "park": "PR",
     "season": "summer",
@@ -40,6 +45,7 @@
     "type": "berry"
   },
   {
+    "foodId": 3,
     "foodName": "Thimbleberries",
     "park": "PR",
     "season": "summer",
@@ -48,6 +54,7 @@
     "type": "berry"
   },
   {
+    "foodId": 4,
     "foodName": "Gooseberries",
     "park": "PR",
     "season": "summer",
@@ -56,6 +63,7 @@
     "type": "berry"
   },
   {
+    "foodId": 4,
     "foodName": "Gooseberries",
     "park": "PR",
     "season": "spring",
@@ -64,6 +72,7 @@
     "type": "berry"
   },
   {
+    "foodId": 5,
     "foodName": "Salmonberries",
     "park": "PR",
     "season": "summer",
@@ -72,6 +81,7 @@
     "type": "berry"
   },
   {
+    "foodId": 5,
     "foodName": "Salmonberries",
     "park": "PR",
     "season": "fall",
@@ -80,6 +90,7 @@
     "type": "berry"
   },
   {
+    "foodId": 6,
     "foodName": "Huckleberries",
     "park": "PR",
     "season": "summer",
@@ -88,6 +99,7 @@
     "type": "berry"
   },
   {
+    "foodId": 6,
     "foodName": "Huckleberries",
     "park": "PR",
     "season": "fall",
@@ -96,6 +108,7 @@
     "type": "berry"
   },
   {
+    "foodId": 7,
     "foodName": "Apples",
     "park": "PR",
     "season": "fall",
@@ -104,6 +117,7 @@
     "type": "fruit"
   },
   {
+    "foodId": 7,
     "foodName": "Apples",
     "park": "GG",
     "season": "fall",
@@ -112,6 +126,7 @@
     "type": "fruit"
   },
   {
+    "foodId": 8,
     "foodName": "Chanterelle",
     "park": "PR",
     "season": "fall",
@@ -120,6 +135,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 8,
     "foodName": "Chanterelle",
     "park": "PR",
     "season": "winter",
@@ -128,6 +144,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 8,
     "foodName": "Chanterelle",
     "park": "SP",
     "season": "fall",
@@ -136,6 +153,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 8,
     "foodName": "Chanterelle",
     "park": "SP",
     "season": "winter",
@@ -144,6 +162,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 9,
     "foodName": "Chicken of The Woods",
     "park": "PR",
     "season": "fall",
@@ -152,6 +171,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 9,
     "foodName": "Chicken of The Woods",
     "park": "PR",
     "season": "summer",
@@ -160,6 +180,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 9,
     "foodName": "Chicken of The Woods",
     "park": "PR",
     "season": "spring",
@@ -168,6 +189,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 9,
     "foodName": "Chicken of The Woods",
     "park": "PR",
     "season": "winter",
@@ -176,6 +198,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 9,
     "foodName": "Chicken of The Woods",
     "park": "SP",
     "season": "fall",
@@ -184,6 +207,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 9,
     "foodName": "Chicken of The Woods",
     "park": "SP",
     "season": "summer",
@@ -192,6 +216,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 9,
     "foodName": "Chicken of The Woods",
     "park": "SP",
     "season": "spring",
@@ -200,6 +225,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 9,
     "foodName": "Chicken of The Woods",
     "park": "SP",
     "season": "winter",
@@ -208,6 +234,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 10,
     "foodName": "Bolete",
     "park": "SP",
     "season": "summer",
@@ -216,6 +243,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 10,
     "foodName": "Bolete",
     "park": "SP",
     "season": "fall",
@@ -224,6 +252,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 10,
     "foodName": "Bolete",
     "park": "PR",
     "season": "summer",
@@ -232,6 +261,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 10,
     "foodName": "Bolete",
     "park": "PR",
     "season": "fall",
@@ -240,6 +270,7 @@
     "type": "mushroom"
   },
   {
+    "foodId": 11,
     "foodName": "Bull Kelp",
     "park": "GG",
     "season": "spring",
@@ -248,6 +279,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 11,
     "foodName": "Bull Kelp",
     "park": "GG",
     "season": "summer",
@@ -256,6 +288,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 11,
     "foodName": "Bull Kelp",
     "park": "GG",
     "season": "fall",
@@ -264,6 +297,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 11,
     "foodName": "Bull Kelp",
     "park": "GG",
     "season": "winter",
@@ -272,6 +306,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 11,
     "foodName": "Bull Kelp",
     "park": "PR",
     "season": "spring",
@@ -280,6 +315,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 11,
     "foodName": "Bull Kelp",
     "park": "PR",
     "season": "summer",
@@ -288,6 +324,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 11,
     "foodName": "Bull Kelp",
     "park": "PR",
     "season": "fall",
@@ -296,6 +333,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 11,
     "foodName": "Bull Kelp",
     "park": "PR",
     "season": "winter",
@@ -304,6 +342,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 12,
     "foodName": "Kombu",
     "park": "GG",
     "season": "spring",
@@ -312,6 +351,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 12,
     "foodName": "Kombu",
     "park": "GG",
     "season": "summer",
@@ -320,6 +360,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 12,
     "foodName": "Kombu",
     "park": "GG",
     "season": "fall",
@@ -328,6 +369,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 12,
     "foodName": "Kombu",
     "park": "GG",
     "season": "winter",
@@ -336,6 +378,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 12,
     "foodName": "Kombu",
     "park": "PR",
     "season": "spring",
@@ -344,6 +387,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 12,
     "foodName": "Kombu",
     "park": "PR",
     "season": "summer",
@@ -352,6 +396,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 12,
     "foodName": "Kombu",
     "park": "PR",
     "season": "fall",
@@ -360,6 +405,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 12,
     "foodName": "Kombu",
     "park": "PR",
     "season": "winter",
@@ -368,6 +414,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 13,
     "foodName": "Wakame",
     "park": "PR",
     "season": "spring",
@@ -376,6 +423,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 13,
     "foodName": "Wakame",
     "park": "PR",
     "season": "summer",
@@ -384,6 +432,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 13,
     "foodName": "Wakame",
     "park": "PR",
     "season": "fall",
@@ -392,6 +441,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 13,
     "foodName": "Wakame",
     "park": "PR",
     "season": "winter",
@@ -400,6 +450,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 13,
     "foodName": "Wakame",
     "park": "GG",
     "season": "spring",
@@ -408,6 +459,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 13,
     "foodName": "Wakame",
     "park": "GG",
     "season": "summer",
@@ -416,6 +468,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 13,
     "foodName": "Wakame",
     "park": "GG",
     "season": "fall",
@@ -424,6 +477,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 13,
     "foodName": "Wakame",
     "park": "GG",
     "season": "winter",
@@ -432,6 +486,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 14,
     "foodName": "Sea Lettuce",
     "park": "GG",
     "season": "spring",
@@ -440,6 +495,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 14,
     "foodName": "Sea Lettuce",
     "park": "GG",
     "season": "summer",
@@ -448,6 +504,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 14,
     "foodName": "Sea Lettuce",
     "park": "GG",
     "season": "fall",
@@ -456,6 +513,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 14,
     "foodName": "Sea Lettuce",
     "park": "GG",
     "season": "winter",
@@ -464,6 +522,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 14,
     "foodName": "Sea Lettuce",
     "park": "PR",
     "season": "spring",
@@ -472,6 +531,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 14,
     "foodName": "Sea Lettuce",
     "park": "PR",
     "season": "summer",
@@ -480,6 +540,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 14,
     "foodName": "Sea Lettuce",
     "park": "PR",
     "season": "fall",
@@ -488,6 +549,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 14,
     "foodName": "Sea Lettuce",
     "park": "PR",
     "season": "winter",
@@ -496,6 +558,7 @@
     "type": "seaweed"
   },
   {
+    "foodId": 15,
     "foodName": "Plum",
     "park": "GG",
     "season": "summer",
@@ -504,6 +567,7 @@
     "type": "fruit"
   },
   {
+    "foodId": 16,
     "foodName": "Fig",
     "park": "GG",
     "season": "summer",
@@ -512,6 +576,7 @@
     "type": "fruit"
   },
   {
+    "foodId": 17,
     "foodName": "California Black Walnut",
     "park": "NA",
     "season": "fall",
@@ -520,6 +585,7 @@
     "type": "nut"
   },
   {
+    "foodId": 18,
     "foodName": "American Elderberry",
     "park": "NA",
     "season": "summer",
@@ -528,6 +594,7 @@
     "type": "berry"
   },
   {
+    "foodId": 19,
     "foodName": "California Native Currant",
     "park": "NA",
     "season": "summer",
@@ -536,6 +603,7 @@
     "type": ""
   },
   {
+    "foodId": 20,
     "foodName": "California Bay Laurel",
     "park": "NA",
     "season": "all",
@@ -544,6 +612,7 @@
     "type": "herb"
   },
   {
+    "foodId": 21,
     "foodName": "Lambsquarter",
     "park": "NA",
     "season": "summer",

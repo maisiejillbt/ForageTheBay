@@ -12,10 +12,10 @@ function filterFood(park, season) {
   return filtered
 }
 
-function filterPark(data, parkName) {
+function filterPark(parkId) {
   const filtered = []; 
   parks.forEach(element => {
-    if (element['name'] === parkName){
+    if (element['parkId'] === parkId){
       filtered.push(element);
     }
   });

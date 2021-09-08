@@ -24,10 +24,16 @@ The main map in the center of the page can be easily interacted with, you can se
 - D2 (09/04/21) Js and functionality - build out food and park objects 
 - D3 (09/05/21) Js and functionality - create views, and test all connectivity between dom and js
 - D4 (09/06/21) HTML Skeleton and CSS start - make final design decisions, and begin working on map
-- D5 (09/07/21) map and images for items - finish map and 
+- D5 (09/07/21) Finish map, connect click handlers and put page on GH pages
 - D6 (09/08/21) open 
 - D7 (09/09/21) wrap up 
 
 # Bonus features 
  
  I would love to add a line draw animation to the map!
+
+
+# Notes / things to finish 
+
+  - style food items & park info 
+  - style seasons with hover and active

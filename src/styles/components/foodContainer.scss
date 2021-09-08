@@ -1,0 +1,32 @@
+.food-info {
+  
+}
+
+a {
+  font-family: 'Montserrat';
+  font-size: 20;
+
+}
+
+.food-container{
+  margin-top: 350px;
+  left: 40px;
+}
+
+.food-info {
+  position: absolute;
+  left: 500px;
+  display:none;
+}
+
+@media only screen and (max-width: 1000px) {
+   .food-container {
+      margin-top:auto;
+      width: 100%;
+      margin:0;
+   }
+   .food-info{
+      margin-top:350px;
+      left:auto;
+   }
+}

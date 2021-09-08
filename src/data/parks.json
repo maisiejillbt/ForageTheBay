@@ -1,27 +1,30 @@
 [
   {
-    "name": "Point Reyes National Seashore",
+    "parkId": "PR",
+    "parkName": "Point Reyes National Seashore",
     "address": "Point Reyes Station, CA 94956",
     "hours": "6AM- 12AM",
-    "description": "71,000-acre park boasts a visitor center, hiking trails, expansive beaches & panoramic water views.",
+    "parkDescription": "71,000-acre park boasts a visitor center, hiking trails, expansive beaches & panoramic water views.",
     "restrictions": "",
     "bagLimits": "Blackberries, Raspberries, Thimbleberries, Gooseberries, Salmonberries, Huckleberries, or apples - 2 quarts per person per day. Mushrooms - 2 gallons plus 1 mushroom per adult per day",
     "fees": ""
   },
   {
-    "name": "Salt Point State Park",
+    "parkId": "SP",
+    "parkName": "Salt Point State Park",
     "address": "25050 CA-1, Jenner, CA 95450",
     "hours": "8AM-10PM",
-    "description": "Scenic, rocky coastline featuring panoramic views, hiking trails & secluded coves, plus campgrounds.",
+    "parkDescription": "Scenic, rocky coastline featuring panoramic views, hiking trails & secluded coves, plus campgrounds.",
     "restrictions": "No marine life foraging allowed, this is a marine protected area",
     "bagLimits": "3 pounds of mushrooms, per person, per day",
     "fees": "Day Use: $8.00 per vehicle"
   },
   {
-    "name": "Golden Gate National Recreation Area",
+    "parkId": "GG",
+    "parkName": "Golden Gate National Recreation Area",
     "address": "Mill Valley, CA 94941",
     "hours": "24 hours",
-    "description": "Coastal urban park with historic sites & activities from bicycling to hiking to water sports.",
+    "parkDescription": "Coastal urban park with historic sites & activities from bicycling to hiking to water sports.",
     "restrictions": "No foraging of any kind in Muir Woods National Monument",
     "bagLimits": "Plums, apples, figs, and blackberries may be gathered in quantities of less than one quart per person per day",
     "fees": ""

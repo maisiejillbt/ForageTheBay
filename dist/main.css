@@ -13,6 +13,12 @@
   font-weight: normal;
   src: url("./assets/fonts/SwearDeckDemo-MediumCilati.otf") format("opentype");
 }
+@font-face {
+  font-family: "Hatton";
+  font-style: normal;
+  font-weight: thin;
+  src: url("./assets/fonts/PPHatton-Ultralight.otf") format("opentype");
+}
 html {
   padding: 0;
   margin: 0;
@@ -43,11 +49,11 @@ svg {
 }
 
 .main-content {
+  margin-top: -54px;
   min-height: 100vh;
   display: flex;
   justify-content: space-evenly;
   padding: 0;
-  margin: 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -58,11 +64,13 @@ svg {
 
   .main-content {
     flex-direction: column;
+    margin-top: -80px;
   }
 }
 h1 {
   margin: 0px;
   margin-left: 15px;
+  font-size: 40px;
   color: #2A3C24;
   font-family: "Swear Display";
   font-style: italic;
@@ -70,14 +78,22 @@ h1 {
 }
 
 header {
-  margin-left: 20px;
+  margin-left: 60px;
 }
 
 .food-sidebar {
-  opacity: 0.5;
-  background-color: white;
-  min-height: 100vh;
-  width: 25%;
+  height: 100vh;
+  width: 100%;
+  flex-shrink: 7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+img {
+  max-width: 105px;
+  height: fit-content;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -86,12 +102,21 @@ header {
   }
 }
 .map-container {
-  width: 40%;
+  height: 100%;
+  min-width: 525px;
   font-size: 18px;
+  flex-shrink: 1;
 }
 
-.park:hover {
-  filter: drop-shadow(3px -1px 4px #2A3C24);
+.map {
+  stroke-dasharray: 2300;
+  stroke-dashoffset: -2300;
+  stroke-linecap: round;
+  animation: dash 10s ease-in-out forwards;
+  stroke: url(#MyGradient);
+  fill: none;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
 }
 
 #SP {
@@ -112,15 +137,51 @@ header {
   fill: #B09976;
 }
 
-.map {
-  stroke-dasharray: 2300;
-  stroke-dashoffset: -2300;
-  stroke-linecap: round;
-  animation: dash 10s ease-in-out forwards;
-  stroke: url(#MyGradient);
-  fill: none;
-  stroke-width: 4;
-  stroke-miterlimit: 10;
+.park:hover {
+  filter: drop-shadow(3px 0 4px #2A3C24);
+  overflow: hidden;
+}
+
+.underline {
+  display: none;
+  -webkit-animation: 0s ease 0s normal forwards 1 fadein;
+  animation: 0s ease 0s normal forwards 1 fadein;
+}
+
+#springUnderline {
+  fill: #EFF1C5;
+}
+
+#summerUnderline {
+  fill: #AFBF99;
+}
+
+#fallUnderline {
+  fill: #FCC67E;
+}
+
+#winterUnderline {
+  fill: #B09976;
+}
+
+#spring {
+  -webkit-animation: 4s ease 0s normal forwards 1 fadein;
+  animation: 4s ease 0s normal forwards 1 fadein;
+}
+
+#summer {
+  -webkit-animation: 4.5s ease 0s normal forwards 1 fadein;
+  animation: 4.5s ease 0s normal forwards 1 fadein;
+}
+
+#autum {
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+  animation: 5s ease 0s normal forwards 1 fadein;
+}
+
+#winter {
+  -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+  animation: 6s ease 0s normal forwards 1 fadein;
 }
 
 @keyframes dash {
@@ -130,7 +191,7 @@ header {
 }
 @media only screen and (max-width: 1000px) {
   .map-container {
-    width: 100%;
+    max-width: 500px;
     order: -1;
   }
 }
@@ -157,14 +218,56 @@ header {
   }
 }
 .park-sidebar {
-  opacity: 0.5;
-  background-color: white;
+  margin-top: 20px;
+  margin-left: -150px;
   height: 100vh;
-  width: 25%;
+  width: 100%;
+  flex-shrink: 7;
+}
+
+h2 {
+  font-family: "Swear Display";
+  font-style: italic;
+  font-size: 25px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 20;
 }
 
 @media only screen and (max-width: 1000px) {
   .park-sidebar {
+    height: auto;
     width: 100%;
+    margin: 0;
+  }
+}
+a {
+  font-family: "Montserrat";
+  font-size: 20;
+}
+
+.food-container {
+  margin-top: 350px;
+  left: 40px;
+}
+
+.food-info {
+  position: absolute;
+  left: 500px;
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .food-container {
+    margin-top: auto;
+    width: 100%;
+    margin: 0;
+  }
+
+  .food-info {
+    margin-top: 350px;
+    left: auto;
   }
 }

@@ -6,8 +6,8 @@ const View = require("./scripts/view.js")
 
 document.addEventListener("DOMContentLoaded", () => {
  //call new view
-  let view = new View()
-  view.seasonClickHandler('spring')
+  let view = new View();
+  view.addOnClicks();
 
 });
 // console.log(view)

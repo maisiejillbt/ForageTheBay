@@ -1,70 +1,70 @@
-foodName,park,season,wiki,photo,type
-Blackberries,PR,summer,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"../../dist/assets/blackberries.jpeg",berry
-Blackberries,GG,summer,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"",berry
-Blackberries,PR,fall,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"",berry
-Blackberries,GG,fall,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"",berry
-Raspberries,PR,summer,https://calscape.org/loc-California/Rubus-leucodermis-(Western-Raspberry)?srchcr=sc6132b050e07f0,"",berry
-Thimbleberries,PR,summer,https://calscape.org/Rubus-parviflorus-(Western-Thimbleberry)?srchcr=sc6132b096de007,"",berry
-Gooseberries,PR,summer,https://calscape.org/Ribes-inerme-(Whitestem-Gooseberry)?srchcr=sc6132b0dd6524d,"",berry
-Gooseberries,PR,spring,https://calscape.org/Ribes-inerme-(Whitestem-Gooseberry)?srchcr=sc6132b0dd6524d,"",berry
-Salmonberries,PR,summer,https://calscape.org/loc-California/Salmon%20Berry%20(Rubus%20spectabilis)?newsearch=1,"",berry
-Salmonberries,PR,fall,https://calscape.org/loc-California/Salmon%20Berry%20(Rubus%20spectabilis)?newsearch=1,"",berry
-Huckleberries,PR,summer,https://calscape.org/loc-California/Vaccinium-ovatum-(Huckleberry)?srchcr=sc6132b183ede11,"",berry
-Huckleberries,PR,fall,https://calscape.org/loc-California/Vaccinium-ovatum-(Huckleberry)?srchcr=sc6132b183ede11,"",berry
-Apples,PR,fall,https://en.wikipedia.org/wiki/Apple,"",fruit
-Apples,GG,fall,https://en.wikipedia.org/wiki/Apple,"",fruit
-Chanterelle,PR,fall,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom
-Chanterelle,PR,winter,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom
-Chanterelle,SP,fall,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom
-Chanterelle,SP,winter,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom
-Chicken of The Woods,PR,fall,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
-Chicken of The Woods,PR,summer,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
-Chicken of The Woods,PR,spring,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
-Chicken of The Woods,PR,winter,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
-Chicken of The Woods,SP,fall,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
-Chicken of The Woods,SP,summer,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
-Chicken of The Woods,SP,spring,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
-Chicken of The Woods,SP,winter,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
-Bolete,SP,summer,https://en.wikipedia.org/wiki/Boletus_edulis,"",mushroom
-Bolete,SP,fall,https://en.wikipedia.org/wiki/Boletus_edulis,"",mushroom
-Bolete,PR,summer,https://en.wikipedia.org/wiki/Boletus_edulis,"",mushroom
-Bolete,PR,fall,https://en.wikipedia.org/wiki/Boletus_edulis,"",mushroom
-Bull Kelp,GG,spring,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
-Bull Kelp,GG,summer,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
-Bull Kelp,GG,fall,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
-Bull Kelp,GG,winter,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
-Bull Kelp,PR,spring,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
-Bull Kelp,PR,summer,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
-Bull Kelp,PR,fall,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
-Bull Kelp,PR,winter,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
-Kombu,GG,spring,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
-Kombu,GG,summer,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
-Kombu,GG,fall,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
-Kombu,GG,winter,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
-Kombu,PR,spring,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
-Kombu,PR,summer,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
-Kombu,PR,fall,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
-Kombu,PR,winter,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
-Wakame,PR,spring,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
-Wakame,PR,summer,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
-Wakame,PR,fall,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
-Wakame,PR,winter,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
-Wakame,GG,spring,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
-Wakame,GG,summer,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
-Wakame,GG,fall,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
-Wakame,GG,winter,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
-Sea Lettuce,GG,spring,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
-Sea Lettuce,GG,summer,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
-Sea Lettuce,GG,fall,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
-Sea Lettuce,GG,winter,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
-Sea Lettuce,PR,spring,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
-Sea Lettuce,PR,summer,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
-Sea Lettuce,PR,fall,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
-Sea Lettuce,PR,winter,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
-Plum,GG,summer,https://en.wikipedia.org/wiki/Plum,"",fruit
-Fig,GG,summer,https://en.wikipedia.org/wiki/Fig,"",fruit
-California Black Walnut,NA,fall,https://en.wikipedia.org/wiki/Juglans_californica,"",nut
-American Elderberry,NA,summer,https://plants.ces.ncsu.edu/plants/sambucus-canadensis/,"",berry
-California Native Currant,NA,summer,https://calscape.org/loc-California/Currant%20(all)/vw-list?view_style=list#:~:text=Known%20by%20the%20common%20names,that%20of%20cloves%20or%20vanilla.,"",berry
-California Bay Laurel,NA,all,https://en.wikipedia.org/wiki/Umbellularia,"",herb
-Lambsquarter,NA,summer,https://www.mofga.org/resources/greens/lambsquarters/,"",veg
+foodId,foodName,park,season,wiki,photo,type
+1, Blackberries,PR,summer,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"../../dist/assets/blackberries.jpeg",berry
+1,Blackberries,GG,summer,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"",berry
+1,Blackberries,PR,fall,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"",berry
+1,Blackberries,GG,fall,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"",berry
+2,Raspberries,PR,summer,https://calscape.org/loc-California/Rubus-leucodermis-(Western-Raspberry)?srchcr=sc6132b050e07f0,"",berry
+3,Thimbleberries,PR,summer,https://calscape.org/Rubus-parviflorus-(Western-Thimbleberry)?srchcr=sc6132b096de007,"",berry
+4,Gooseberries,PR,summer,https://calscape.org/Ribes-inerme-(Whitestem-Gooseberry)?srchcr=sc6132b0dd6524d,"",berry
+4,Gooseberries,PR,spring,https://calscape.org/Ribes-inerme-(Whitestem-Gooseberry)?srchcr=sc6132b0dd6524d,"",berry
+5,Salmonberries,PR,summer,https://calscape.org/loc-California/Salmon%20Berry%20(Rubus%20spectabilis)?newsearch=1,"",berry
+5,Salmonberries,PR,fall,https://calscape.org/loc-California/Salmon%20Berry%20(Rubus%20spectabilis)?newsearch=1,"",berry
+6,Huckleberries,PR,summer,https://calscape.org/loc-California/Vaccinium-ovatum-(Huckleberry)?srchcr=sc6132b183ede11,"",berry
+6,Huckleberries,PR,fall,https://calscape.org/loc-California/Vaccinium-ovatum-(Huckleberry)?srchcr=sc6132b183ede11,"",berry
+7,Apples,PR,fall,https://en.wikipedia.org/wiki/Apple,"",fruit
+7,Apples,GG,fall,https://en.wikipedia.org/wiki/Apple,"",fruit
+8,Chanterelle,PR,fall,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom
+8,Chanterelle,PR,winter,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom
+8,Chanterelle,SP,fall,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom
+8,Chanterelle,SP,winter,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom
+9,Chicken of The Woods,PR,fall,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
+9,Chicken of The Woods,PR,summer,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
+9,Chicken of The Woods,PR,spring,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
+9,Chicken of The Woods,PR,winter,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
+9,Chicken of The Woods,SP,fall,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
+9,Chicken of The Woods,SP,summer,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
+9,Chicken of The Woods,SP,spring,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
+9,Chicken of The Woods,SP,winter,https://en.wikipedia.org/wiki/Laetiporus,"",mushroom
+10,Bolete,SP,summer,https://en.wikipedia.org/wiki/Boletus_edulis,"",mushroom
+10,Bolete,SP,fall,https://en.wikipedia.org/wiki/Boletus_edulis,"",mushroom
+10,Bolete,PR,summer,https://en.wikipedia.org/wiki/Boletus_edulis,"",mushroom
+10,Bolete,PR,fall,https://en.wikipedia.org/wiki/Boletus_edulis,"",mushroom
+11,Bull Kelp,GG,spring,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
+11,Bull Kelp,GG,summer,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
+11,Bull Kelp,GG,fall,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
+11,Bull Kelp,GG,winter,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
+11,Bull Kelp,PR,spring,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
+11,Bull Kelp,PR,summer,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
+11,Bull Kelp,PR,fall,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
+11,Bull Kelp,PR,winter,https://en.wikipedia.org/wiki/Nereocystis,"",seaweed
+12,Kombu,GG,spring,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
+12,Kombu,GG,summer,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
+12,Kombu,GG,fall,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
+12,Kombu,GG,winter,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
+12,Kombu,PR,spring,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
+12,Kombu,PR,summer,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
+12,Kombu,PR,fall,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
+12,Kombu,PR,winter,https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/,"",seaweed
+13,Wakame,PR,spring,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
+13,Wakame,PR,summer,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
+13,Wakame,PR,fall,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
+13,Wakame,PR,winter,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
+13,Wakame,GG,spring,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
+13,Wakame,GG,summer,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
+13,Wakame,GG,fall,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
+13,Wakame,GG,winter,https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/,"",seaweed
+14,Sea Lettuce,GG,spring,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
+14,Sea Lettuce,GG,summer,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
+14,Sea Lettuce,GG,fall,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
+14,Sea Lettuce,GG,winter,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
+14,Sea Lettuce,PR,spring,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
+14,Sea Lettuce,PR,summer,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
+14,Sea Lettuce,PR,fall,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
+14,Sea Lettuce,PR,winter,https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/,"",seaweed
+15,Plum,GG,summer,https://en.wikipedia.org/wiki/Plum,"",fruit
+16,Fig,GG,summer,https://en.wikipedia.org/wiki/Fig,"",fruit
+17,California Black Walnut,NA,fall,https://en.wikipedia.org/wiki/Juglans_californica,"",nut
+18,American Elderberry,NA,summer,https://plants.ces.ncsu.edu/plants/sambucus-canadensis/,"",berry
+19,California Native Currant,NA,summer,https://calscape.org/loc-California/Currant%20(all)/vw-list?view_style=list#:~:text=Known%20by%20the%20common%20names,that%20of%20cloves%20or%20vanilla.,"",berry
+20,California Bay Laurel,NA,all,https://en.wikipedia.org/wiki/Umbellularia,"",herb
+21,Lambsquarter,NA,summer,https://www.mofga.org/resources/greens/lambsquarters/,"",veg
