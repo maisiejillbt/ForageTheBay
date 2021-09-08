@@ -161,29 +161,29 @@ img {
 #springUnderline {
   fill: #EFF1C5;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #summerUnderline {
   fill: #AFBF99;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #fallUnderline {
   fill: #FCC67E;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #winterUnderline {
   fill: #B09976;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #spring {
@@ -239,6 +239,22 @@ img {
     opacity: 1;
   }
 }
+@keyframes underlineFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes underlineFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .park-sidebar {
   margin-top: 20px;
   margin-left: -150px;
@@ -251,6 +267,7 @@ h2 {
   font-family: "Swear Display";
   font-style: italic;
   font-size: 25px;
+  color: #2A3C24;
 }
 
 p {
@@ -272,17 +289,23 @@ a {
 
 .food-container {
   margin-top: 350px;
+  margin-bottom: 10px;
   left: 40px;
+  color: #2A3C24;
 }
 
 .food-info {
   position: absolute;
-  left: 500px;
+  left: 550px;
   max-width: 270px;
   display: none;
   animation: fadeIn 2s;
   -webkit-animation: fadeIn 2s;
   -webkit-animation-fill-mode: forwards;
+}
+
+.food-info > h2 {
+  margin-bottom: 0;
 }
 
 @keyframes fadeIn {

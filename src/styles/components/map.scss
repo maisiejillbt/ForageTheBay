@@ -33,6 +33,7 @@
   display:none;
 }
 
+
 #SP{
   -webkit-animation: 3.75s ease 0s normal forwards 1 fadein;
   animation: 3.75s ease 0s normal forwards 1 fadein;
@@ -54,29 +55,29 @@
 #springUnderline{
   fill:#EFF1C5;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #summerUnderline {
   fill:#AFBF99;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #fallUnderline {
   fill:#FCC67E;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #winterUnderline{
   fill:#B09976;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #spring {
@@ -122,4 +123,14 @@
     0% { opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; }
+}
+
+@keyframes underlineFadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes underlineFadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }

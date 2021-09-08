@@ -33,7 +33,12 @@ The main map in the center of the page can be easily interacted with, you can se
  I would love to add a line draw animation to the map!
 
 
-# Notes / things to finish 
+# Tomorrows goals 
+  - add linkdin / github links to header 
 
-  - style food items & park info 
-  - style seasons with hover and active
+
+# Post Due-date Add ons
+  - add more content for each of the food items
+  - create click walkthrough of how to use the app 
+  - add hover for seasons 
+  - 

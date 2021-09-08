@@ -26,17 +26,20 @@ class Food {
     const foodDiv = document.createElement('div');
     const foodName = document.createElement('h2');
     const foodURL = document.createElement('a');
+    const foodDesc = document.createElement('p');
 
     foodDiv.classList.add('food-info');
     foodDiv.id = `${this.foodId}`;
     
     foodName.innerText = `${this.name}`;
+    foodDesc.innerText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
   
     foodURL.href = `${this.url}`;
     foodURL.innerText = `More information on ${this.name}`;
 
     foodDiv.appendChild(foodName);
     foodDiv.appendChild(foodURL);
+    foodDiv.appendChild(foodDesc);
 
     foodInfoContainer.appendChild(foodDiv);
   }

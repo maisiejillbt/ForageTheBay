@@ -5,17 +5,23 @@ a {
 
 .food-container{
   margin-top: 350px;
+  margin-bottom: 10px;
   left: 40px;
+  color: $kombuGreen;
 }
 
 .food-info {
   position: absolute;
-  left: 500px;
+  left: 550px;
   max-width: 270px;
   display:none;
   animation: fadeIn 2s;
   -webkit-animation: fadeIn 2s;
   -webkit-animation-fill-mode: forwards;
+}
+
+.food-info > h2 {
+  margin-bottom: 0;
 }
 
 @keyframes fadeIn {
