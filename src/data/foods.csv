@@ -1,8 +1,8 @@
 foodId,foodName,park,season,wiki,photo,type
-1, Blackberries,PR,summer,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"../../dist/assets/blackberries.jpeg",berry
-1,Blackberries,GG,summer,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"",berry
-1,Blackberries,PR,fall,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"",berry
-1,Blackberries,GG,fall,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"",berry
+1, Blackberries,PR,summer,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"../../dist/assets/svgs/blackberry.svg",berry
+1,Blackberries,GG,summer,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"../../dist/assets/svgs/blackberry.svg",berry
+1,Blackberries,PR,fall,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"../../dist/assets/svgs/blackberry.svg",berry
+1,Blackberries,GG,fall,https://calscape.org/Rubus-ursinus-(Pacific-Blackberry),"../../dist/assets/svgs/blackberry.svg",berry
 2,Raspberries,PR,summer,https://calscape.org/loc-California/Rubus-leucodermis-(Western-Raspberry)?srchcr=sc6132b050e07f0,"",berry
 3,Thimbleberries,PR,summer,https://calscape.org/Rubus-parviflorus-(Western-Thimbleberry)?srchcr=sc6132b096de007,"",berry
 4,Gooseberries,PR,summer,https://calscape.org/Ribes-inerme-(Whitestem-Gooseberry)?srchcr=sc6132b0dd6524d,"",berry
@@ -11,8 +11,8 @@ foodId,foodName,park,season,wiki,photo,type
 5,Salmonberries,PR,fall,https://calscape.org/loc-California/Salmon%20Berry%20(Rubus%20spectabilis)?newsearch=1,"",berry
 6,Huckleberries,PR,summer,https://calscape.org/loc-California/Vaccinium-ovatum-(Huckleberry)?srchcr=sc6132b183ede11,"",berry
 6,Huckleberries,PR,fall,https://calscape.org/loc-California/Vaccinium-ovatum-(Huckleberry)?srchcr=sc6132b183ede11,"",berry
-7,Apples,PR,fall,https://en.wikipedia.org/wiki/Apple,"",fruit
-7,Apples,GG,fall,https://en.wikipedia.org/wiki/Apple,"",fruit
+7,Apples,PR,fall,https://en.wikipedia.org/wiki/Apple,"../../dist/assets/svgs/apple.svg",fruit
+7,Apples,GG,fall,https://en.wikipedia.org/wiki/Apple,"../../dist/assets/svgs/apple.svg",fruit
 8,Chanterelle,PR,fall,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom
 8,Chanterelle,PR,winter,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom
 8,Chanterelle,SP,fall,https://en.wikipedia.org/wiki/Chanterelle,"",mushroom

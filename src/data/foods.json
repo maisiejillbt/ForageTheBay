@@ -5,7 +5,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://calscape.org/Rubus-ursinus-(Pacific-Blackberry)",
-    "photo": "../../dist/assets/blackberries.jpeg",
+    "photo": "../../dist/assets/svgs/blackberry.svg",
     "type": "berry"
   },
   {
@@ -14,7 +14,7 @@
     "park": "GG",
     "season": "summer",
     "wiki": "https://calscape.org/Rubus-ursinus-(Pacific-Blackberry)",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/blackberry.svg",
     "type": "berry"
   },
   {
@@ -23,7 +23,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://calscape.org/Rubus-ursinus-(Pacific-Blackberry)",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/blackberry.svg",
     "type": "berry"
   },
   {
@@ -32,7 +32,7 @@
     "park": "GG",
     "season": "fall",
     "wiki": "https://calscape.org/Rubus-ursinus-(Pacific-Blackberry)",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/blackberry.svg",
     "type": "berry"
   },
   {
@@ -41,7 +41,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://calscape.org/loc-California/Rubus-leucodermis-(Western-Raspberry)?srchcr=sc6132b050e07f0",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/raspberry.svg",
     "type": "berry"
   },
   {
@@ -50,7 +50,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://calscape.org/Rubus-parviflorus-(Western-Thimbleberry)?srchcr=sc6132b096de007",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/thimbleberry.svg",
     "type": "berry"
   },
   {
@@ -59,7 +59,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://calscape.org/Ribes-inerme-(Whitestem-Gooseberry)?srchcr=sc6132b0dd6524d",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/gooseberry.svg",
     "type": "berry"
   },
   {
@@ -68,7 +68,7 @@
     "park": "PR",
     "season": "spring",
     "wiki": "https://calscape.org/Ribes-inerme-(Whitestem-Gooseberry)?srchcr=sc6132b0dd6524d",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/gooseberry.svg",
     "type": "berry"
   },
   {
@@ -77,7 +77,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://calscape.org/loc-California/Salmon%20Berry%20(Rubus%20spectabilis)?newsearch=1",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/salmonberry.svg",
     "type": "berry"
   },
   {
@@ -86,7 +86,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://calscape.org/loc-California/Salmon%20Berry%20(Rubus%20spectabilis)?newsearch=1",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/salmonberry.svg",
     "type": "berry"
   },
   {
@@ -95,7 +95,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://calscape.org/loc-California/Vaccinium-ovatum-(Huckleberry)?srchcr=sc6132b183ede11",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/huckleberry.svg",
     "type": "berry"
   },
   {
@@ -104,7 +104,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://calscape.org/loc-California/Vaccinium-ovatum-(Huckleberry)?srchcr=sc6132b183ede11",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/huckleberry.svg",
     "type": "berry"
   },
   {
@@ -113,7 +113,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Apple",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/apple.svg",
     "type": "fruit"
   },
   {
@@ -122,7 +122,7 @@
     "park": "GG",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Apple",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/apple.svg",
     "type": "fruit"
   },
   {
@@ -131,7 +131,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chantrelle.svg",
     "type": "mushroom"
   },
   {
@@ -140,7 +140,7 @@
     "park": "PR",
     "season": "winter",
     "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chantrelle.svg",
     "type": "mushroom"
   },
   {
@@ -149,7 +149,7 @@
     "park": "SP",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chantrelle.svg",
     "type": "mushroom"
   },
   {
@@ -158,7 +158,7 @@
     "park": "SP",
     "season": "winter",
     "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chantrelle.svg",
     "type": "mushroom"
   },
   {
@@ -167,7 +167,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chickenOfTheWoods.svg",
     "type": "mushroom"
   },
   {
@@ -176,7 +176,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chickenOfTheWoods.svg",
     "type": "mushroom"
   },
   {
@@ -185,7 +185,7 @@
     "park": "PR",
     "season": "spring",
     "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chickenOfTheWoods.svg",
     "type": "mushroom"
   },
   {
@@ -194,7 +194,7 @@
     "park": "PR",
     "season": "winter",
     "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chickenOfTheWoods.svg",
     "type": "mushroom"
   },
   {
@@ -203,7 +203,7 @@
     "park": "SP",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chickenOfTheWoods.svg",
     "type": "mushroom"
   },
   {
@@ -212,7 +212,7 @@
     "park": "SP",
     "season": "summer",
     "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chickenOfTheWoods.svg",
     "type": "mushroom"
   },
   {
@@ -221,7 +221,7 @@
     "park": "SP",
     "season": "spring",
     "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chickenOfTheWoods.svg",
     "type": "mushroom"
   },
   {
@@ -230,7 +230,7 @@
     "park": "SP",
     "season": "winter",
     "wiki": "https://en.wikipedia.org/wiki/Laetiporus",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/chickenOfTheWoods.svg",
     "type": "mushroom"
   },
   {
@@ -239,7 +239,7 @@
     "park": "SP",
     "season": "summer",
     "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bolette.svg",
     "type": "mushroom"
   },
   {
@@ -248,7 +248,7 @@
     "park": "SP",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bolette.svg",
     "type": "mushroom"
   },
   {
@@ -257,7 +257,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bolette.svg",
     "type": "mushroom"
   },
   {
@@ -266,7 +266,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bolette.svg",
     "type": "mushroom"
   },
   {
@@ -275,7 +275,7 @@
     "park": "GG",
     "season": "spring",
     "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bull-kelp.svg",
     "type": "seaweed"
   },
   {
@@ -284,7 +284,7 @@
     "park": "GG",
     "season": "summer",
     "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bull-kelp.svg",
     "type": "seaweed"
   },
   {
@@ -293,7 +293,7 @@
     "park": "GG",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bull-kelp.svg",
     "type": "seaweed"
   },
   {
@@ -302,7 +302,7 @@
     "park": "GG",
     "season": "winter",
     "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bull-kelp.svg",
     "type": "seaweed"
   },
   {
@@ -311,7 +311,7 @@
     "park": "PR",
     "season": "spring",
     "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bull-kelp.svg",
     "type": "seaweed"
   },
   {
@@ -320,7 +320,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bull-kelp.svg",
     "type": "seaweed"
   },
   {
@@ -329,7 +329,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bull-kelp.svg",
     "type": "seaweed"
   },
   {
@@ -338,7 +338,7 @@
     "park": "PR",
     "season": "winter",
     "wiki": "https://en.wikipedia.org/wiki/Nereocystis",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/bull-kelp.svg",
     "type": "seaweed"
   },
   {
@@ -347,7 +347,7 @@
     "park": "GG",
     "season": "spring",
     "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/kombu.svg",
     "type": "seaweed"
   },
   {
@@ -356,7 +356,7 @@
     "park": "GG",
     "season": "summer",
     "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/kombu.svg",
     "type": "seaweed"
   },
   {
@@ -365,7 +365,7 @@
     "park": "GG",
     "season": "fall",
     "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/kombu.svg",
     "type": "seaweed"
   },
   {
@@ -374,7 +374,7 @@
     "park": "GG",
     "season": "winter",
     "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/kombu.svg",
     "type": "seaweed"
   },
   {
@@ -383,7 +383,7 @@
     "park": "PR",
     "season": "spring",
     "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/kombu.svg",
     "type": "seaweed"
   },
   {
@@ -392,7 +392,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/kombu.svg",
     "type": "seaweed"
   },
   {
@@ -401,7 +401,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/kombu.svg",
     "type": "seaweed"
   },
   {
@@ -410,7 +410,7 @@
     "park": "PR",
     "season": "winter",
     "wiki": "https://seaweedsofpnw.com/sugar-kelp-kombu-sugar-wrack/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/kombu.svg",
     "type": "seaweed"
   },
   {
@@ -419,7 +419,7 @@
     "park": "PR",
     "season": "spring",
     "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/wakame.svg",
     "type": "seaweed"
   },
   {
@@ -428,7 +428,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/wakame.svg",
     "type": "seaweed"
   },
   {
@@ -437,7 +437,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/wakame.svg",
     "type": "seaweed"
   },
   {
@@ -446,7 +446,7 @@
     "park": "PR",
     "season": "winter",
     "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/wakame.svg",
     "type": "seaweed"
   },
   {
@@ -455,7 +455,7 @@
     "park": "GG",
     "season": "spring",
     "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/wakame.svg",
     "type": "seaweed"
   },
   {
@@ -464,7 +464,7 @@
     "park": "GG",
     "season": "summer",
     "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/wakame.svg",
     "type": "seaweed"
   },
   {
@@ -473,7 +473,7 @@
     "park": "GG",
     "season": "fall",
     "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/wakame.svg",
     "type": "seaweed"
   },
   {
@@ -482,7 +482,7 @@
     "park": "GG",
     "season": "winter",
     "wiki": "https://seaweedsofpnw.com/wakame-strap-kelp-winged-kelp-honey-ware/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/wakame.svg",
     "type": "seaweed"
   },
   {
@@ -491,7 +491,7 @@
     "park": "GG",
     "season": "spring",
     "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/seaLettuce.svg",
     "type": "seaweed"
   },
   {
@@ -500,7 +500,7 @@
     "park": "GG",
     "season": "summer",
     "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/seaLettuce.svg",
     "type": "seaweed"
   },
   {
@@ -509,7 +509,7 @@
     "park": "GG",
     "season": "fall",
     "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/seaLettuce.svg",
     "type": "seaweed"
   },
   {
@@ -518,7 +518,7 @@
     "park": "GG",
     "season": "winter",
     "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/seaLettuce.svg",
     "type": "seaweed"
   },
   {
@@ -527,7 +527,7 @@
     "park": "PR",
     "season": "spring",
     "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/seaLettuce.svg",
     "type": "seaweed"
   },
   {
@@ -536,7 +536,7 @@
     "park": "PR",
     "season": "summer",
     "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/seaLettuce.svg",
     "type": "seaweed"
   },
   {
@@ -545,7 +545,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/seaLettuce.svg",
     "type": "seaweed"
   },
   {
@@ -554,7 +554,7 @@
     "park": "PR",
     "season": "winter",
     "wiki": "https://seaweedsofpnw.com/sea-lettuce-aosa-green-laver/",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/seaLettuce.svg",
     "type": "seaweed"
   },
   {
@@ -563,7 +563,7 @@
     "park": "GG",
     "season": "summer",
     "wiki": "https://en.wikipedia.org/wiki/Plum",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/plum.svg",
     "type": "fruit"
   },
   {
@@ -572,7 +572,7 @@
     "park": "GG",
     "season": "summer",
     "wiki": "https://en.wikipedia.org/wiki/Fig",
-    "photo": "",
+    "photo": "../../dist/assets/svgs/plum.svg", 
     "type": "fruit"
   },
   {

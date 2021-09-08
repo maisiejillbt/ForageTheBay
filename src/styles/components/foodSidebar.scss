@@ -1,6 +1,7 @@
 .food-sidebar {
   height:100vh; // will likely change 
   width: 100%;
+  margin-top: 50px;
   flex-shrink: 7;
   display:flex;
   flex-wrap: wrap;
@@ -8,12 +9,13 @@
   align-content: flex-start;
 }
 img {
-  // width: 50%;
-  max-width: 105px;
+  max-width: 200px;
   height:fit-content;
 }
 @media only screen and (max-width: 1000px) {
    .food-sidebar {
+      max-height: 100vh;
       width: 100%;
+      overflow-x: scroll;
    }
 }

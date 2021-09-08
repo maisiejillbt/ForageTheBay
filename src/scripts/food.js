@@ -8,7 +8,6 @@ class Food {
     this.photo = photo;
   }
 
-
   generateFoodDiv() { // this needs to be reworked into two functions
     const foodSidebar = document.querySelector('.food-sidebar');
     const foodDiv = document.createElement('div');
@@ -16,7 +15,7 @@ class Food {
     const foodURL = document.createElement('a');
     const foodInfoContainer = document.querySelector('.food-container');
     const foodIcon = document.createElement('img');
-    foodIcon.src = "../../dist/assets/blackberries.jpeg"; // THIS IS A DUMMY IMAGE
+    foodIcon.src = this.photo; // THIS IS A DUMMY IMAGE
     foodIcon.id = `${this.foodId}`;
     foodIcon.classList.add('food-icon');
 
