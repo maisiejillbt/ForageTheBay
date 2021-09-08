@@ -113,7 +113,7 @@
     "park": "PR",
     "season": "fall",
     "wiki": "https://en.wikipedia.org/wiki/Apple",
-    "phodist/assets/svgs/apple.svg",
+    "photo": "dist/assets/svgs/apple.svg",
     "type": "fruit"
   },
   {
