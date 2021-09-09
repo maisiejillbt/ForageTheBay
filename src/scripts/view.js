@@ -75,7 +75,15 @@ class View {
     this.displayFoods(foods);
 
     this.addFoodOnClicks() // can only add the listeners after the items are generated and displayed
- 
+    const parks = document.querySelectorAll('.park');
+  
+    if (parks[0].id === "parkShadow") {
+      for (let i = 0; i < 3; i++) {
+        parks[i].removeAttribute('id');
+      }
+      document.querySelector('.introBox1').style.display = 'none';
+      document.querySelector('.introBox2').style.display = 'block'
+    }  
   }
 
   foodClickHandler(foodId){
@@ -84,6 +92,8 @@ class View {
     }
     this.food = document.getElementById(`${foodId}`);
     this.food.style.display = 'block';
+    const foodIntro = document.querySelector('.introBox2'); 
+    foodIntro.style.display = 'none';
   }
 
   addFoodOnClicks() { // cannot be done at run time because divs are dynamically generated

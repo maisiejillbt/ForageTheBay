@@ -24,7 +24,23 @@ svg {
   padding:0;
 }
 
+p {
+  margin: 5px;
+}
 
+#linkdin, #github {
+  width:40px;
+  height: 40px;
+}
+
+.social {
+  position:absolute; 
+  left: 20px; 
+  bottom: 0px;
+  margin: 0;
+  z-index: -1;
+
+}
 .main-content{
   margin-top: -70px;
   min-height: 100vh;

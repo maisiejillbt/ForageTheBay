@@ -10,5 +10,19 @@ h1 {
 
 header {
   margin-left: 60px;
+  animation: fadeIn 2s ease-in 0s normal forwards;
+  -webkit-animation: fadeIn 2s ease-in 0s normal forwards;
 }
+
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 

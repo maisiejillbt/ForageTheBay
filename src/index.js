@@ -7,6 +7,6 @@ const Intro = require("./scripts/intro.js")
 
 document.addEventListener("DOMContentLoaded", () => {
   let view = new View();
-  // Intro.generateIntro(); //>>> working on getting the positioning right :( 
+  Intro.generateIntro(); //>>> working on getting the positioning right :( 
   view.addOnClicks();
 });
