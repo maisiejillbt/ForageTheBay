@@ -14,8 +14,6 @@ The main map in the center of the page can be easily interacted with, you can se
 5) Can click on and interact with all food items 
 
 ## Libraries, API's and Tech 
-
-- possibly using canvas to render map, will discuss more with Spenser
 - Webpack and Babel to bundle and transpile the source JavaScript code
 
 ## TimeLine 
@@ -29,17 +27,13 @@ The main map in the center of the page can be easily interacted with, you can se
 - D7 (09/09/21) wrap up 
 
 # Bonus features 
- 
  I would love to add a line draw animation to the map!
-
-
-# Tomorrows goals 
-  - add linkdin / github links to header 
-
 
 # Post Due-date Add ons
   - add more content for each of the food items
-  - create click walkthrough of how to use the app 
   - add hover for seasons 
   - add more to the map to make it more obvious that it is a map
   - make map fade to nothing at the end
+
+# Thank you to OHNO for the beautiful Swear Deck Display font. 
+  - OHNO https://ohnotype.co/

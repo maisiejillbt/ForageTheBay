@@ -58,6 +58,7 @@ class View {
   }
 
   mapClickHandler(park,season){
+    // adding and removing underlines from season
     prevSeasonUnderline = document.querySelector(`#${this.season}Underline`);
     prevSeasonUnderline.style.display = "none"; 
 
@@ -65,9 +66,9 @@ class View {
     !season ? season = this.season : this.changeSeason(season);
 
     newSeasonUnderline = document.querySelector(`#${season}Underline`);
-    newSeasonUnderline.style.display = "block"; 
-  
-    
+    newSeasonUnderline.style.display = "block";
+
+    //displaying park & food data
     let parkData = data.filterPark(this.park);
     let foods = data.filterFood(this.park,this.season);
 
@@ -75,7 +76,9 @@ class View {
     this.displayFoods(foods);
 
     this.addFoodOnClicks() // can only add the listeners after the items are generated and displayed
-    const parks = document.querySelectorAll('.park');
+    // I would like to refactor this into another function
+    // removing inital shadow bounce from parks
+    const parks = document.querySelectorAll('.park'); 
   
     if (parks[0].id === "parkShadow") {
       for (let i = 0; i < 3; i++) {
@@ -88,7 +91,7 @@ class View {
 
   foodClickHandler(foodId){
     if (this.food) {
-      this.food.style.display = 'none'; // check if there was a food displayed previously
+      this.food.style.display = 'none'; // check if there was a food displayed previously and remove them
     }
     this.food = document.getElementById(`${foodId}`);
     this.food.style.display = 'block';
@@ -104,8 +107,7 @@ class View {
     }
   }
 
-
-  addOnClicks(){
+  addOnClicks(){ // would love to spend more time on this and see if I can refactor for a SVG
     let spring = document.querySelector('#spring')
     let summer = document.querySelector('#summer')
     let autumn = document.querySelector('#autumn')

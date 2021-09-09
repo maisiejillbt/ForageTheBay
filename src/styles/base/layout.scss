@@ -1,3 +1,6 @@
+* {
+  cursor: url("/blackberryMouse.png"), auto;	
+}
 
 html {
   padding:0;
@@ -35,19 +38,18 @@ p {
 
 .social {
   position:absolute; 
+  z-index: 2;
   left: 20px; 
   bottom: 0px;
   margin: 0;
-  z-index: -1;
-
 }
+
 .main-content{
   margin-top: -70px;
   min-height: 100vh;
   display: flex;
   justify-content: space-evenly;
   padding:0;
-
 }
 
 @media only screen and (max-width: 1000px) {

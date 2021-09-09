@@ -5,7 +5,7 @@ function generateIntro() { // I want to refactor this into at least two differen
   const dirs = document.createElement('h3');
   welcome.innerText = "Welcome";
   intro.innerText = 
-  `I created Forage the Bay as an easy to use visual tool for foragers of all skill levels.`
+  `I created Forage the Bay as an easy to use visual tool for foragers of all skill levels.`;
   dirs.innerText = 
   `To get started click on one of the highlighted public parks or seasons`;
 
@@ -17,17 +17,13 @@ function generateIntro() { // I want to refactor this into at least two differen
   introBox1.appendChild(intro);
   introBox1.appendChild(dirs);
 
-
   const introBox2 = document.querySelector('.introBox2');
   const foodsIntro = document.createElement('h3'); 
+
   foodsIntro.id = 'foodIntro'
   foodsIntro.innerText = `Click a food icon to see more information about that food`
   introBox2.appendChild(foodsIntro)
   introBox2.style.display = 'none';
 }
 
-function introOnClick() {
-
-}
-
-export {generateIntro, introOnClick};
+export {generateIntro};

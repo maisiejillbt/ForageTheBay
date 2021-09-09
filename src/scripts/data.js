@@ -9,7 +9,7 @@ function filterFood(park, season) {
       filtered.push(element);
     }
   });
-  return filtered
+  return filtered;
 }
 
 function filterPark(parkId) {
