@@ -1,3 +1,354 @@
-@font-face{font-family:"Swear Display";font-style:italic;font-weight:normal;src:url("./assets/fonts/SwearDeckDemo-MediumCilati.otf") format("opentype")}html{padding:0;margin:0;background:linear-gradient(to left top, #fffaee, #fffaee, #FCC67E) fixed;min-height:100%;background-repeat:no-repeat}body{min-height:100vh}button{font-size:15px;font-family:"Swear Display";font-weight:bold;border:none;background-color:transparent}svg{margin:0;padding:0}.main-content{margin-top:-70px;min-height:100vh;display:flex;justify-content:space-evenly;padding:0}@media only screen and (max-width: 1000px){body{margin:5%;padding:0}.main-content{flex-direction:column;margin-top:-80px}}h1{margin:0px;margin-left:15px;font-size:40px;color:#2a3c24;font-family:"Swear Display";font-style:italic;text-align:left}header{margin-left:60px}.food-sidebar{height:100vh;width:100%;margin-top:30px;flex-shrink:7;display:flex;flex-wrap:wrap;justify-content:space-evenly;align-content:flex-start;overflow-x:scroll}img{max-width:200px;height:fit-content;opacity:0;animation:fadeIn 5s;-webkit-animation:fadeIn 5s;-webkit-animation-fill-mode:forwards}@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@media only screen and (max-width: 1000px){.food-sidebar{margin-top:50px;max-height:100vh;width:100%}}.map-container{height:100%;min-width:525px;font-size:18px;flex-shrink:1}.map{stroke-dasharray:2300;stroke-dashoffset:-2300;stroke-linecap:round;animation:dash 10s ease-in-out forwards;stroke:url(#MyGradient);fill:none;stroke-width:4;stroke-miterlimit:10}.season{fill:#2a3c24}.park:hover{filter:drop-shadow(3px 0 4px #2A3C24);overflow:hidden}.underline{display:none}#SP{-webkit-animation:3.75s ease 0s normal forwards 1 fadein;animation:3.75s ease 0s normal forwards 1 fadein;fill:#afbf99}#RP{-webkit-animation:5s ease 0s normal forwards 1 fadein;animation:5s ease 0s normal forwards 1 fadein;fill:#eff1c5}#GG{-webkit-animation:11s ease 0s normal forwards 1 fadein;animation:11s ease 0s normal forwards 1 fadein;fill:#b09976}#springUnderline{fill:#eff1c5;opacity:0;-webkit-animation:1s ease 0s normal forwards 1 underlineFadeIn;animation:1s ease 0s normal forwards 1 underlineFadeIn}#summerUnderline{fill:#afbf99;opacity:0;-webkit-animation:1s ease 0s normal forwards 1 underlineFadeIn;animation:1s ease 0s normal forwards 1 underlineFadeIn}#fallUnderline{fill:#fcc67e;opacity:0;-webkit-animation:1s ease 0s normal forwards 1 underlineFadeIn;animation:1s ease 0s normal forwards 1 underlineFadeIn}#winterUnderline{fill:#b09976;opacity:0;-webkit-animation:1s ease 0s normal forwards 1 underlineFadeIn;animation:1s ease 0s normal forwards 1 underlineFadeIn}#spring{-webkit-animation:4s ease 0s normal forwards 1 fadein;animation:4s ease 0s normal forwards 1 fadein}#summer{-webkit-animation:4.5s ease 0s normal forwards 1 fadein;animation:4.5s ease 0s normal forwards 1 fadein}#autumn{-webkit-animation:5s ease 0s normal forwards 1 fadein;animation:5s ease 0s normal forwards 1 fadein}#winter{-webkit-animation:6s ease 0s normal forwards 1 fadein;animation:6s ease 0s normal forwards 1 fadein}@keyframes dash{to{stroke-dashoffset:0}}@media only screen and (max-width: 1000px){.map-container{max-width:500px;order:-1}}@keyframes fadein{0%{opacity:0}66%{opacity:0}100%{opacity:1}}@-webkit-keyframes fadein{0%{opacity:0}66%{opacity:0}100%{opacity:1}}@keyframes underlineFadeIn{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes underlineFadeIn{0%{opacity:0}100%{opacity:1}}.park-sidebar{margin-top:20px;margin-left:-150px;height:100vh;width:100%;flex-shrink:7}h2{font-family:"Swear Display";font-style:italic;font-size:25px;color:#2a3c24}p{font-family:"Montserrat";font-size:20}@media only screen and (max-width: 1000px){.park-sidebar{height:auto;width:100%;margin:0}}a{font-family:"Montserrat";font-size:20}.food-container{margin-top:350px;margin-bottom:10px;left:40px;color:#2a3c24}.food-info{position:absolute;left:550px;max-width:270px;display:none;animation:fadeIn 2s;-webkit-animation:fadeIn 2s;-webkit-animation-fill-mode:forwards}.food-info>h2{margin-bottom:0}@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@media only screen and (max-width: 1000px){.food-container{display:flex;margin-top:0;width:100%;margin-left:0}.food-info{width:100%;position:static;left:0}}
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*************************************************************************************************************************************/
+@font-face {
+  font-family: "Swear Display";
+  font-style: italic;
+  font-weight: normal;
+  src: url("./assets/fonts/SwearDeckDemo-MediumCilati.otf") format("opentype");
+}
+html {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to left top, #fffaee, #fffaee, #FCC67E) fixed;
+  min-height: 100%;
+  background-repeat: no-repeat;
+}
 
-/*# sourceMappingURL=main.css.map*/
+body {
+  min-height: 100vh;
+}
+
+button {
+  font-size: 15px;
+  font-family: "Swear Display";
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+}
+
+svg {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  margin-top: -70px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    margin: 5%;
+    padding: 0;
+  }
+
+  .main-content {
+    flex-direction: column;
+    margin-top: -80px;
+  }
+}
+.introBox {
+  display: fixed;
+  left: 50%;
+  top: 50%;
+  margin: 0;
+  z-index: -1;
+}
+
+.introText {
+  font-family: "Swear Display";
+  color: #2A3C24;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#introHeader {
+  font-family: "Swear Display";
+  font-style: italic;
+  color: #2A3C24;
+  font-size: 50px;
+}
+
+h1 {
+  margin: 0px;
+  margin-left: 15px;
+  font-size: 40px;
+  color: #2A3C24;
+  font-family: "Swear Display";
+  font-style: italic;
+  text-align: left;
+}
+
+header {
+  margin-left: 60px;
+}
+
+.food-sidebar {
+  height: 100vh;
+  width: 100%;
+  margin-top: 30px;
+  flex-shrink: 7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  overflow-x: scroll;
+}
+
+img {
+  max-width: 200px;
+  height: fit-content;
+  opacity: 0;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .food-sidebar {
+    margin-top: 50px;
+    max-height: 100vh;
+    width: 100%;
+  }
+}
+.map-container {
+  height: 100%;
+  min-width: 525px;
+  font-size: 18px;
+  flex-shrink: 1;
+}
+
+.map {
+  stroke-dasharray: 2300;
+  stroke-dashoffset: -2300;
+  stroke-linecap: round;
+  animation: dash 10s ease-in-out forwards;
+  stroke: url(#MyGradient);
+  fill: none;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.season {
+  fill: #2A3C24;
+}
+
+.park:hover {
+  filter: drop-shadow(3px 0 4px #2A3C24);
+  overflow: hidden;
+}
+
+.underline {
+  display: none;
+}
+
+#SP {
+  -webkit-animation: 3.75s ease 0s normal forwards 1 fadein;
+  animation: 3.75s ease 0s normal forwards 1 fadein;
+  fill: #AFBF99;
+}
+
+#RP {
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+  animation: 5s ease 0s normal forwards 1 fadein;
+  fill: #EFF1C5;
+}
+
+#GG {
+  -webkit-animation: 11s ease 0s normal forwards 1 fadein;
+  animation: 11s ease 0s normal forwards 1 fadein;
+  fill: #B09976;
+}
+
+#springUnderline {
+  fill: #EFF1C5;
+  opacity: 0;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+}
+
+#summerUnderline {
+  fill: #AFBF99;
+  opacity: 0;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+}
+
+#fallUnderline {
+  fill: #FCC67E;
+  opacity: 0;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+}
+
+#winterUnderline {
+  fill: #B09976;
+  opacity: 0;
+  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+}
+
+#spring {
+  -webkit-animation: 4s ease 0s normal forwards 1 fadein;
+  animation: 4s ease 0s normal forwards 1 fadein;
+}
+
+#summer {
+  -webkit-animation: 4.5s ease 0s normal forwards 1 fadein;
+  animation: 4.5s ease 0s normal forwards 1 fadein;
+}
+
+#autumn {
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+  animation: 5s ease 0s normal forwards 1 fadein;
+}
+
+#winter {
+  -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+  animation: 6s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .map-container {
+    max-width: 500px;
+    order: -1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes underlineFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes underlineFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.park-sidebar {
+  margin-top: 20px;
+  margin-left: -150px;
+  height: 100vh;
+  width: 100%;
+  flex-shrink: 7;
+}
+
+h2 {
+  font-family: "Swear Display";
+  font-style: italic;
+  font-size: 25px;
+  color: #2A3C24;
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 20;
+}
+
+@media only screen and (max-width: 1000px) {
+  .park-sidebar {
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+}
+a {
+  font-family: "Montserrat";
+  font-size: 20;
+}
+
+.food-container {
+  margin-top: 300px;
+  margin-bottom: 10px;
+  left: 40px;
+  color: #2A3C24;
+}
+
+.food-info {
+  position: absolute;
+  left: 550px;
+  max-width: 270px;
+  display: none;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.food-info > h2 {
+  margin-bottom: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .food-container {
+    display: flex;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .food-info {
+    width: 100%;
+    position: static;
+    left: 0;
+  }
+}

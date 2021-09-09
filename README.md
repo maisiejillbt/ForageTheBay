@@ -41,4 +41,4 @@ The main map in the center of the page can be easily interacted with, you can se
   - add more content for each of the food items
   - create click walkthrough of how to use the app 
   - add hover for seasons 
-  - 
+  - add more to the map to make it more obvious that it is a map

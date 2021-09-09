@@ -37,44 +37,44 @@
 #SP{
   -webkit-animation: 3.75s ease 0s normal forwards 1 fadein;
   animation: 3.75s ease 0s normal forwards 1 fadein;
-  fill:#AFBF99;
+  fill:$greyGreen;
 }
 
 #RP{
   -webkit-animation: 5s ease 0s normal forwards 1 fadein;
   animation: 5s ease 0s normal forwards 1 fadein;
-  fill:#EFF1C5;
+  fill:$springGreen;
 }
 
 #GG{
   -webkit-animation: 11s ease 0s normal forwards 1 fadein;
   animation: 11s ease 0s normal forwards 1 fadein;
-  fill:#B09976;
+  fill:$beige;
 }
 
 #springUnderline{
-  fill:#EFF1C5;
+  fill:$springGreen;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #summerUnderline {
-  fill:#AFBF99;
+  fill:$greyGreen;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #fallUnderline {
-  fill:#FCC67E;
+  fill:$peach;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
 #winterUnderline{
-  fill:#B09976;
+  fill:$beige;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
