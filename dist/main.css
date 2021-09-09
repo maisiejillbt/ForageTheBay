@@ -57,10 +57,6 @@ table {
   font-weight: normal;
   src: url("./assets/fonts/SwearDeckDemo-MediumCilati.otf") format("opentype");
 }
-* {
-  cursor: url("blackberryMouse.png"), auto;
-}
-
 html {
   padding: 0;
   margin: 0;
