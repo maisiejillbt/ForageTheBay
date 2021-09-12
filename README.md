@@ -1,5 +1,7 @@
 # Forage the Bay
 
+### https://maisiejillbt.github.io/ForageTheBay/
+
 ## - Find what you can forage and where with Forage the Bay, a data visualization tool for foragers of all experience levels. 
 
 With Forage the Bay you can easily find a food to forage in your area no matter the season! Forage the Bay is made up of data from my personal knowledge of the bay area as well as information from California State Parks and Forests. 
@@ -33,7 +35,9 @@ The main map in the center of the page can be easily interacted with, you can se
   - add more content for each of the food items
   - add hover for seasons 
   - add more to the map to make it more obvious that it is a map
-  - make map fade to nothing at the end
+  - make map outline fade to nothing at the end
+  - change intro position & add moving shadow effect
+  - refactor a few functions
 
 # Thank you to OHNO for the beautiful Swear Deck Display font. 
   - OHNO https://ohnotype.co/
