@@ -28,14 +28,19 @@ The main map in the center of the page can be easily interacted with, you can se
 - D6 (09/08/21) open 
 - D7 (09/09/21) wrap up 
 
+- D8 (10/11/21) Add all content for food items & edit map gradient to fade out
+- D9 (10/12/21) Reposition intro and add shdow effect to food items
+- D10 (10/13/21) Create hover feature and flash during intro for Seasons 
+- D11 (10/14/21) Refactor Generate Intro and add on clicks
+
 # Bonus features 
  I would love to add a line draw animation to the map!
 
 # Post Due-date Add ons
-  - add more content for each of the food items
-  - add hover for seasons 
+  - add more content for each of the food items -
+  - add hover for seasons -
   - add more to the map to make it more obvious that it is a map
-  - make map outline fade to nothing at the end
+  - make map outline fade to nothing at the end - 
   - change intro position & add moving shadow effect
   - refactor a few functions
 
