@@ -2,6 +2,7 @@
   {
     "parkId": "PR",
     "parkName": "Point Reyes National Seashore",
+    "website": "",
     "address": "Point Reyes Station, CA 94956",
     "hours": "6AM- 12AM",
     "parkDescription": "71,000-acre park boasts a visitor center, hiking trails, expansive beaches & panoramic water views.",
@@ -12,6 +13,7 @@
   {
     "parkId": "SP",
     "parkName": "Salt Point State Park",
+    "website": "",
     "address": "25050 CA-1, Jenner, CA 95450",
     "hours": "8AM-10PM",
     "parkDescription": "Scenic, rocky coastline featuring panoramic views, hiking trails & secluded coves, plus campgrounds.",
@@ -22,6 +24,7 @@
   {
     "parkId": "GG",
     "parkName": "Golden Gate National Recreation Area",
+    "website": "",
     "address": "Mill Valley, CA 94941",
     "hours": "24 hours",
     "parkDescription": "Coastal urban park with historic sites & activities from bicycling to hiking to water sports.",
