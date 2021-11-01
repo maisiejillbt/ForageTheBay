@@ -216,9 +216,10 @@ document.write('\
             C270.1,382.22,271.11,384.5,272.72,387.06z"/>\
         </g>\
         <g id="map">\
-          <linearGradient id="MyGradient">\
+          <linearGradient id="MyGradient" x1="0" x2="0" y1="0" y2="1">\
             <stop offset="5%" stop-color="#EFF1C5" />\
             <stop offset="95%" stop-color="#2A3C24" />\
+            <stop offset="98%" stop-color="transparent" />\
           </linearGradient>\
           <g id="Layer_3">\
             <path class="map" d="M489.3,801.12c0.4-3.15,0.58-7.68-0.68-12.84c-0.69-2.81-1.57-4.86-2.09-6.03\
