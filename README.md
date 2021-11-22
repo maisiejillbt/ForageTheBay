@@ -35,7 +35,7 @@ The main map in the center of the page can be easily interacted with, you can se
   - add more content for each of the food items 
   - add hover for seasons 
   - add more to the map to make it more obvious that it is a map
-  - make map outline fade to nothing at the end 
+  - make map outline fade to nothing at the end ✅
   - change intro position & add moving shadow effect
   - refactor a few functions
 
