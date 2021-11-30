@@ -1,11 +1,12 @@
 class Food {
-  constructor(foodId, name, park, season, url, photo){
+  constructor(foodId, name, park, season, url, photo, description){
     this.foodId = foodId;
     this.name = name; 
     this.park = park; 
     this.season = season;
     this.url = url;
     this.photo = photo;
+    this.description = description;
   }
 
   generateFoodSidebar() {
@@ -33,7 +34,7 @@ class Food {
     
     foodName.innerText = `${this.name}`;
     // this will change when I add more information for each food item
-    foodDesc.innerText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+    foodDesc.innerText = `${this.description}`
   
     foodURL.href = `${this.url}`;
     foodURL.innerText = `More information on ${this.name}`;

@@ -32,7 +32,8 @@ class View {
         currentFood.park,
         currentFood.season,
         currentFood.wiki,
-        currentFood.photo);
+        currentFood.photo,
+        currentFood.description);
 
       foodObj.generateFoodSidebar(); // generating div and rendering
       foodObj.generateFoodInfo(); // generating div and rendering
@@ -59,13 +60,13 @@ class View {
 
   mapClickHandler(park,season){
     // adding and removing underlines from season
-    prevSeasonUnderline = document.querySelector(`#${this.season}Underline`);
-    prevSeasonUnderline.style.display = "none"; 
+    const prevSeasonUnderline = document.querySelector(`#${this.season}Underline`);
+    prevSeasonUnderline ? prevSeasonUnderline.style.display = "none" : null; 
 
     !park ? park = this.park : this.changePark(park);
     !season ? season = this.season : this.changeSeason(season);
 
-    newSeasonUnderline = document.querySelector(`#${season}Underline`);
+    const newSeasonUnderline = document.querySelector(`#${season}Underline`);
     newSeasonUnderline.style.display = "block";
 
     //displaying park & food data
@@ -100,7 +101,7 @@ class View {
   }
 
   addFoodOnClicks() { // cannot be done at run time because divs are dynamically generated
-    foodIcons = document.querySelectorAll('.food-icon'); 
+    const foodIcons = document.querySelectorAll('.food-icon'); 
     for (let i =0; i < foodIcons.length; i++) {
       let food = foodIcons[i]; 
       food.addEventListener('click', this.foodClickHandler.bind(this,food.id))
@@ -129,4 +130,4 @@ class View {
 
 }
 
-module.exports = View;
+export default View;
