@@ -1,7 +1,7 @@
 h2 {
   font-family: 'Swear Display';
   font-style: italic;
-  font-size: 25px;
+  font-size: 30px;
   color: $kombuGreen;
   margin-bottom: 10px;
 }
@@ -9,6 +9,17 @@ h2 {
 p {
   font-family: 'Montserrat';
   font-size: 20;
+}
+
+.info-item-container{
+  display: flex;
+}
+
+.info-item-display{
+  font-family: 'Swear Display';
+  color: $kombuGreen;
+  font-style: italic;
+  font-size: 20px;
 }
 
 .park-sidebar {

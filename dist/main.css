@@ -437,7 +437,7 @@ img {
 h2 {
   font-family: "Swear Display";
   font-style: italic;
-  font-size: 25px;
+  font-size: 30px;
   color: #2A3C24;
   margin-bottom: 10px;
 }
@@ -445,6 +445,17 @@ h2 {
 p {
   font-family: "Montserrat";
   font-size: 20;
+}
+
+.info-item-container {
+  display: flex;
+}
+
+.info-item-display {
+  font-family: "Swear Display";
+  color: #2A3C24;
+  font-style: italic;
+  font-size: 20px;
 }
 
 .park-sidebar {

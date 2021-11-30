@@ -27,9 +27,18 @@ class Park { // I want to add in park website
     for (let i = 0; i < parkInfo.length; i++) {
       if (parkInfo[i]){
         let info = document.createElement('p');
-        info.innerText = `${displayTags[i]} ${parkInfo[i]}`;
+        let display = document.createElement('p');
+        let container = document.createElement('div');
+        
+        container.classList.add('info-item-container');
+
+        display.innerText = `${displayTags[i]}`;
+        info.innerText = `${parkInfo[i]}`;
         info.classList.add('info-item');
-        parkDiv.appendChild(info);
+        display.classList.add('info-item-display');
+        container.appendChild(display);
+        container.appendChild(info);
+        parkDiv.appendChild(container);
       }
     }
     parkSidebar.appendChild(parkDiv);
