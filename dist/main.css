@@ -473,14 +473,8 @@ p {
     margin: 0;
   }
 }
-a {
-  font-family: "Montserrat";
-  color: #2A3C24;
-  font-size: 20;
-}
-
 .food-container {
-  margin-top: 300px;
+  margin-top: 290px;
   margin-bottom: 10px;
   left: 40px;
   color: #2A3C24;
@@ -495,9 +489,19 @@ a {
   -webkit-animation: fadeIn 2s;
   -webkit-animation-fill-mode: forwards;
 }
-
-.food-info > h2 {
-  margin-bottom: 0;
+.food-info a {
+  font-family: "Montserrat";
+  color: #2A3C24;
+  font-size: 15;
+  font-weight: bold;
+}
+.food-info h2 {
+  margin-bottom: 10px;
+}
+.food-info p {
+  font-size: 15px;
+  margin: 0;
+  margin-top: 10px;
 }
 
 @keyframes fadeIn {
@@ -518,6 +522,8 @@ a {
 
   .food-info {
     width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
     position: static;
     left: 0;
   }
