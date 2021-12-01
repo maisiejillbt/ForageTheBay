@@ -9,7 +9,7 @@
 .introBox2 {
   position:absolute; 
   left: 430px; 
-  top: 390px;
+  top: 250px;
   margin: 0;
   z-index: -1;
 }
@@ -17,13 +17,12 @@
 #foodIntro {
   font-family: 'Swear Display';
   font-size: 25px;
-  width: 400px;
+  width: 300px;
   color: $kombuGreen; 
   margin-bottom: 10px;
   margin-left: 20px;
   animation: fadeIn 5s ease-in 0s normal forwards;
   -webkit-animation: fadeIn 5s ease 0s normal forwards;
-
 }
 
 .introText {

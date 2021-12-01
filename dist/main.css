@@ -129,7 +129,7 @@ p {
 .introBox2 {
   position: absolute;
   left: 430px;
-  top: 390px;
+  top: 250px;
   margin: 0;
   z-index: -1;
 }
@@ -137,7 +137,7 @@ p {
 #foodIntro {
   font-family: "Swear Display";
   font-size: 25px;
-  width: 400px;
+  width: 300px;
   color: #2A3C24;
   margin-bottom: 10px;
   margin-left: 20px;
@@ -337,60 +337,66 @@ img {
   fill: #B09976;
 }
 
+#spring {
+  -webkit-animation: 4s ease 0s normal forwards 1 fadein;
+  animation: 4s ease 0s normal forwards 1 fadein;
+}
+
 .spring {
   fill: #EFF1C5;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
-  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+}
+
+.intro.spring {
+  -webkit-animation: 4s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
+  animation: 4s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
+}
+
+#summer {
+  -webkit-animation: 4.5s ease 0s normal forwards 1 fadein;
+  animation: 4.5s ease 0s normal forwards 1 fadein;
 }
 
 .summer {
   fill: #AFBF99;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
-  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+  -webkit-animation: 4.5s ease 0s normal forwards 1 fadein;
+  animation: 4.5s ease 0s normal forwards 1 fadein;
+}
+
+.intro {
+  -webkit-animation: 4.5s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
+  animation: 4.5s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
+}
+
+#autumn {
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+  animation: 5s ease 0s normal forwards 1 fadein;
 }
 
 .fall {
   fill: #FCC67E;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
-  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
+}
+
+.intro.fall {
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
+  animation: 5s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
+}
+
+#winter {
+  -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+  animation: 6s ease 0s normal forwards 1 fadein;
 }
 
 .winter {
   fill: #B09976;
   opacity: 0;
-  -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
-  animation: 1s ease 0s normal forwards 1 underlineFadeIn;
-}
-
-#spring, .intro.spring {
-  -webkit-animation: 4s ease 0s normal forwards 1 fadein;
-  animation: 4s ease 0s normal forwards 1 fadein;
-}
-
-#summer, .intro.summer {
-  -webkit-animation: 4.5s ease 0s normal forwards 1 fadein;
-  animation: 4.5s ease 0s normal forwards 1 fadein;
-}
-
-#autumn, .intro.fall {
-  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
-  animation: 5s ease 0s normal forwards 1 fadein;
-}
-
-#winter, .intro.winter {
-  -webkit-animation: 6s ease 0s normal forwards 1 fadein;
-  animation: 6s ease 0s normal forwards 1 fadein;
 }
 
 .intro.winter {
-  opacity: 0;
-  -webkit-animation: fade 2.5s normal forwards infinite;
-  animation: fade 2.5s normal forwards infinite;
-  animation-delay: 4s;
-  -webkit-animation-delay: 4s;
+  -webkit-animation: 6s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
+  animation: 6s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
 }
 
 @keyframes dash {
@@ -426,23 +432,15 @@ img {
     opacity: 1;
   }
 }
-@keyframes underlineFadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes fade {
   0% {
-    opacity: 0;
+    opacity: 0.5;
   }
   50% {
     opacity: 1;
   }
   100% {
-    opacity: 0;
+    opacity: 0.5;
   }
 }
 h2 {
