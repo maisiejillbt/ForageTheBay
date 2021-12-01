@@ -8,6 +8,7 @@ class View {
     this.season = 'spring';
     this.park = 'SP';
     this.food;
+    this.introComplete = false;
   }
 
   changeSeason(season){
@@ -78,8 +79,15 @@ class View {
 
     this.addFoodOnClicks() // can only add the listeners after the items are generated and displayed
     // I would like to refactor this into another function
+
     // removing inital shadow bounce from parks
     const parks = document.querySelectorAll('.park'); 
+
+
+    if(!this.introComplete){
+      this.introComplete = true;
+      this.removeIntroUnderlines();
+    }
   
     if (parks[0].id === "parkShadow") {
       for (let i = 0; i < 3; i++) {
@@ -88,6 +96,15 @@ class View {
       document.querySelector('.introBox1').style.display = 'none';
       document.querySelector('.introBox2').style.display = 'block'
     }  
+
+  }
+
+  removeIntroUnderlines(){
+    const underlines = document.querySelectorAll('.underline'); 
+    for(let i=0; i<4; i++){
+      underlines[i].style.display = 'none';
+      underlines[i].classList.remove("intro");
+    }
   }
 
   foodClickHandler(foodId){

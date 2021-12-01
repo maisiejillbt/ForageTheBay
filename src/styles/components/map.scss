@@ -47,53 +47,55 @@
   fill:$beige;
 }
 
-#springUnderline{
+.spring {
   fill:$springGreen;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
-#summerUnderline {
+.summer{
   fill:$greyGreen;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
-#fallUnderline {
+.fall {
   fill:$peach;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
-#winterUnderline{
+.winter{
   fill:$beige;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
-#spring {
+#spring, .intro.spring{
   -webkit-animation: 4s ease 0s normal forwards 1 fadein;
   animation: 4s ease 0s normal forwards 1 fadein;
 }
 
-#summer{
+#summer, .intro.summer{
   -webkit-animation: 4.5s ease 0s normal forwards 1 fadein;
   animation: 4.5s ease 0s normal forwards 1 fadein;
 }
 
-#autumn {
+#autumn, .intro.fall{
   -webkit-animation: 5s ease 0s normal forwards 1 fadein;
   animation: 5s ease 0s normal forwards 1 fadein;
 }
 
-#winter {
+#winter, .intro.winter {
   -webkit-animation: 6s ease 0s normal forwards 1 fadein;
   animation: 6s ease 0s normal forwards 1 fadein;
 }
+
+
 
 @keyframes dash {
   to {
@@ -125,7 +127,7 @@
   100% {opacity:1;}
 }
 
-@-webkit-keyframes underlineFadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
 }

@@ -337,50 +337,50 @@ img {
   fill: #B09976;
 }
 
-#springUnderline {
+.spring {
   fill: #EFF1C5;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
-#summerUnderline {
+.summer {
   fill: #AFBF99;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
-#fallUnderline {
+.fall {
   fill: #FCC67E;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
-#winterUnderline {
+.winter {
   fill: #B09976;
   opacity: 0;
   -webkit-animation: 1s ease 0s normal forwards 1 underlineFadeIn;
   animation: 1s ease 0s normal forwards 1 underlineFadeIn;
 }
 
-#spring {
+#spring, .intro.spring {
   -webkit-animation: 4s ease 0s normal forwards 1 fadein;
   animation: 4s ease 0s normal forwards 1 fadein;
 }
 
-#summer {
+#summer, .intro.summer {
   -webkit-animation: 4.5s ease 0s normal forwards 1 fadein;
   animation: 4.5s ease 0s normal forwards 1 fadein;
 }
 
-#autumn {
+#autumn, .intro.fall {
   -webkit-animation: 5s ease 0s normal forwards 1 fadein;
   animation: 5s ease 0s normal forwards 1 fadein;
 }
 
-#winter {
+#winter, .intro.winter {
   -webkit-animation: 6s ease 0s normal forwards 1 fadein;
   animation: 6s ease 0s normal forwards 1 fadein;
 }
@@ -426,11 +426,11 @@ img {
     opacity: 1;
   }
 }
-@-webkit-keyframes underlineFadeIn {
-  0% {
+@keyframes fade {
+  0%, 100% {
     opacity: 0;
   }
-  100% {
+  50% {
     opacity: 1;
   }
 }

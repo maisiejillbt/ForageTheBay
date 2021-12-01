@@ -3,7 +3,7 @@ document.write('\
         <!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
           viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">\
-        <g id="springUnderline" class="underline">\
+        <g id="springUnderline" class="underline spring intro">\
 	        <rect x="5.64" y="327.45" width="138.18" height="14.59"/>\
         </g>\
         <g id="spring" class="season" pointer-events="bounding-box">\
@@ -35,7 +35,7 @@ document.write('\
               c-10.26,1.75-15.3,7.38-15.3,11.16c0,1.39,1.22,2.16,2.79,2.16C117.58,331.83,122.3,328.86,127.93,318.51z"/>\
           </g>\
         </g>\
-        <g id="summerUnderline" class="underline">\
+        <g id="summerUnderline" class="underline summer intro">\
 	        <rect x="50.58" y="393.39" width="168.05" height="14.59"/>\
         </g>\
         <g id="summer" class="season" pointer-events="bounding-box">\
@@ -72,7 +72,7 @@ document.write('\
               l0.36,0.09c4.36-14.13,6.44-18.31,10.8-18.36L209.81,385.83z"/>\
           </g>\
         </g>\
-        <g id="fallUnderline" class="underline">\
+        <g id="fallUnderline" class="underline fall intro">\
           <rect x="85.65" y="460.57" class="st0" width="165.42" height="14.59"/>\
         </g>\
         <g id="autumn" class="season" pointer-events="bounding-box">\
@@ -109,7 +109,7 @@ document.write('\
               c0.94,0,1.71-0.81,3.24-3.6l0.95,0.63c-2.43,5.44-4.14,7.42-6.21,7.42C234.31,469.31,232.87,467.29,232.87,465.13z"/>\
           </g>\
         </g>\
-        <g id="winterUnderline" class="underline">\
+        <g id="winterUnderline" class="underline winter intro">\
 	        <rect x="141.98" y="530.34" width="147.21" height="14.59"/>\
         </g>\
         <g id="winter" class="season" pointer-events="bounding-box">\
