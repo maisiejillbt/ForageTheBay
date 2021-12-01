@@ -12,28 +12,22 @@ class Food {
   generateFoodSidebar() {
     const foodSidebar = document.querySelector('.food-sidebar');
     const foodIcon = document.createElement('img');
-
     foodIcon.src = this.photo;
     foodIcon.id = `${this.foodId}`;
     foodIcon.classList.add('food-icon');
-
-
     foodSidebar.appendChild(foodIcon);
   }
 
   generateFoodInfo() { 
     const foodInfoContainer = document.querySelector('.food-container');
-
     const foodDiv = document.createElement('div');
     const foodName = document.createElement('h2');
     const foodURL = document.createElement('a');
     const foodDesc = document.createElement('p');
-
     foodDiv.classList.add('food-info');
-    foodDiv.id = `${this.foodId}`;
     
+    foodDiv.id = `${this.foodId}`;
     foodName.innerText = `${this.name}`;
-    // this will change when I add more information for each food item
     foodDesc.innerText = `${this.description}`
   
     foodURL.href = `${this.url}`;
