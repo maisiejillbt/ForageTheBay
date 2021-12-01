@@ -124,6 +124,12 @@
   animation: click 1s forwards 0s;
 }
 
+#spring, #summer, #autumn, #winter {
+  :hover{
+    transform: translateY(-3px)
+  }
+}
+
 // ====== animations ======
 
 @keyframes dash {

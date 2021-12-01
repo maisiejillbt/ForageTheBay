@@ -91,6 +91,12 @@ p {
   height: 40px;
 }
 
+#resume {
+  width: 85px;
+  height: 85px;
+  margin-bottom: -4px;
+}
+
 .social {
   position: absolute;
   z-index: 2;
@@ -129,7 +135,7 @@ p {
 .introBox2 {
   position: absolute;
   left: 430px;
-  top: 250px;
+  top: 300px;
   margin: 0;
   z-index: -1;
 }
@@ -141,8 +147,8 @@ p {
   color: #2A3C24;
   margin-bottom: 10px;
   margin-left: 20px;
-  animation: fadeIn 5s ease-in 0s normal forwards;
-  -webkit-animation: fadeIn 5s ease 0s normal forwards;
+  animation: fadeIn 5s ease-in 0s normal forwards, shadow 3s ease-in-out infinite;
+  -webkit-animation: fadeIn 5s ease 0s normal forwards, shadow 3s ease-in-out infinite;
 }
 
 .introText {
@@ -164,8 +170,8 @@ p {
   margin-left: 50px;
   width: 550px;
   color: #2A3C24;
-  animation: fadeIn 10s ease-in 0s normal forwards;
-  -webkit-animation: fadeIn 10s ease 0s normal forwards;
+  animation: fadeIn 10s ease-in 0s normal forwards, shadow 3s ease-in-out infinite;
+  -webkit-animation: fadeIn 10s ease 0s normal forwards, shadow 3s ease-in-out infinite;
 }
 
 #introHeader {
@@ -202,6 +208,17 @@ p {
   }
 }
 @keyframes shadow {
+  0% {
+    filter: drop-shadow(0px 10px 5px #2A3C24);
+  }
+  50% {
+    filter: drop-shadow(0px 10px 20px white);
+  }
+  100% {
+    filter: drop-shadow(0px 10px 5px #2A3C24);
+  }
+}
+@-webkit-keyframes shadow {
   0% {
     filter: drop-shadow(0px 10px 5px #2A3C24);
   }
@@ -400,6 +417,10 @@ img {
 .spring, .summer, .fall, .winter {
   -webkit-animation: click 1s forwards 0s;
   animation: click 1s forwards 0s;
+}
+
+#spring :hover, #summer :hover, #autumn :hover, #winter :hover {
+  transform: translateY(-3px);
 }
 
 @keyframes dash {
