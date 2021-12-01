@@ -25,13 +25,14 @@ class Food {
     const foodURL = document.createElement('a');
     const foodDesc = document.createElement('p');
     foodDiv.classList.add('food-info');
-    
+
     foodDiv.id = `${this.foodId}`;
     foodName.innerText = `${this.name}`;
     foodDesc.innerText = `${this.description}`
   
     foodURL.href = `${this.url}`;
     foodURL.innerText = `More information on ${this.name}`;
+    foodUrl.setAttribute("target","_blank");
 
     foodDiv.appendChild(foodName);
     foodDiv.appendChild(foodURL);
