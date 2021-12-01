@@ -385,6 +385,14 @@ img {
   animation: 6s ease 0s normal forwards 1 fadein;
 }
 
+.intro.winter {
+  opacity: 0;
+  -webkit-animation: fade 2.5s normal forwards infinite;
+  animation: fade 2.5s normal forwards infinite;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+}
+
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
@@ -427,11 +435,14 @@ img {
   }
 }
 @keyframes fade {
-  0%, 100% {
+  0% {
     opacity: 0;
   }
   50% {
     opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 h2 {

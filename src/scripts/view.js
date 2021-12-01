@@ -101,7 +101,7 @@ class View {
 
   removeIntroUnderlines(){
     const underlines = document.querySelectorAll('.underline'); 
-    for(let i=0; i<4; i++){
+    for(let i=1; i<4; i++){
       underlines[i].style.display = 'none';
       underlines[i].classList.remove("intro");
     }
