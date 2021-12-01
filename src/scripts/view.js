@@ -103,7 +103,6 @@ class View {
     const underlines = document.querySelectorAll('.underline'); 
     for(let i=0; i<4; i++){
       i > 0 ? underlines[i].style.display = 'none' : null;
-      console.log(underlines[i].classList)
       underlines[i].classList.remove("intro");
     }
   }
