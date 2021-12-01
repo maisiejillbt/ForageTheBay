@@ -360,11 +360,9 @@ img {
 .summer {
   fill: #AFBF99;
   opacity: 0;
-  -webkit-animation: 4.5s ease 0s normal forwards 1 fadein;
-  animation: 4.5s ease 0s normal forwards 1 fadein;
 }
 
-.intro {
+.intro.summer {
   -webkit-animation: 4.5s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
   animation: 4.5s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
 }
@@ -397,6 +395,11 @@ img {
 .intro.winter {
   -webkit-animation: 6s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
   animation: 6s ease 0s normal forwards 1 fadein, fade 3s normal 6s infinite;
+}
+
+.spring, .summer, .fall, .winter {
+  -webkit-animation: click 1s forwards 0s;
+  animation: click 1s forwards 0s;
 }
 
 @keyframes dash {
@@ -432,15 +435,42 @@ img {
     opacity: 1;
   }
 }
-@keyframes fade {
+@keyframes click {
   0% {
-    opacity: 0.5;
-  }
-  50% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes click {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
     opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
   }
 }
 h2 {
