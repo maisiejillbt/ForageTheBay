@@ -32,7 +32,7 @@ class Food {
   
     foodURL.href = `${this.url}`;
     foodURL.innerText = `More information on ${this.name}`;
-    foodUrl.setAttribute("target","_blank");
+    foodURL.setAttribute("target","_blank");
 
     foodDiv.appendChild(foodName);
     foodDiv.appendChild(foodURL);
