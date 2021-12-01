@@ -123,6 +123,14 @@ p {
     flex-direction: column;
     margin-top: -80px;
   }
+
+  .introBox2 {
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    margin: 0;
+    z-index: -1;
+  }
 }
 .introBox1 {
   position: absolute;
@@ -131,27 +139,7 @@ p {
   margin: 0;
   z-index: -1;
 }
-
-.introBox2 {
-  position: absolute;
-  left: 430px;
-  top: 300px;
-  margin: 0;
-  z-index: -1;
-}
-
-#foodIntro {
-  font-family: "Swear Display";
-  font-size: 25px;
-  width: 300px;
-  color: #2A3C24;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  animation: fadeIn 5s ease-in 0s normal forwards, shadow 3s ease-in-out infinite;
-  -webkit-animation: fadeIn 5s ease 0s normal forwards, shadow 3s ease-in-out infinite;
-}
-
-.introText {
+.introBox1 .introText {
   font-family: "Montserrat";
   font-size: 20;
   width: 500px;
@@ -162,8 +150,7 @@ p {
   animation: fadeIn 10s ease-in 0s normal forwards;
   -webkit-animation: fadeIn 10s ease 0s normal forwards;
 }
-
-#directions {
+.introBox1 #directions {
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: bolder;
@@ -173,8 +160,7 @@ p {
   animation: fadeIn 10s ease-in 0s normal forwards, shadow 3s ease-in-out infinite;
   -webkit-animation: fadeIn 10s ease 0s normal forwards, shadow 3s ease-in-out infinite;
 }
-
-#introHeader {
+.introBox1 #introHeader {
   font-family: "Swear Display";
   font-style: italic;
   color: #2A3C24;
@@ -184,6 +170,22 @@ p {
   margin-left: -30px;
   animation: fadeIn 2s ease-in 0s normal forwards;
   -webkit-animation: fadeIn 2s ease-in 0s normal forwards;
+}
+
+.introBox2 {
+  position: absolute;
+  left: 450px;
+  top: 300px;
+  margin: 0;
+  z-index: -1;
+}
+.introBox2 #foodIntro {
+  font-family: "Swear Display";
+  font-size: 25px;
+  width: 300px;
+  color: #2A3C24;
+  animation: fadeIn 5s ease-in 0s normal forwards, shadow 3s ease-in-out infinite;
+  -webkit-animation: fadeIn 5s ease 0s normal forwards, shadow 3s ease-in-out infinite;
 }
 
 #parkShadow {
@@ -227,6 +229,42 @@ p {
   }
   100% {
     filter: drop-shadow(0px 10px 5px #2A3C24);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .introBox2 {
+    left: 50px;
+    top: 470px;
+  }
+  .introBox2 #foodIntro {
+    width: 300px;
+  }
+
+  .introBox1 {
+    position: absolute;
+    width: 500px;
+    left: 170px;
+    top: 120px;
+    margin: 0;
+    z-index: -1;
+  }
+  .introBox1 .introText {
+    width: 330px;
+    margin: 0;
+    margin-left: 35px;
+    font-size: 16px;
+  }
+  .introBox1 #directions {
+    width: 330px;
+    margin-top: 10px;
+    margin-left: 55px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .introBox1 #introHeader {
+    font-size: 35px;
+    margin: 0px;
+    margin-bottom: 10px;
   }
 }
 h1 {
