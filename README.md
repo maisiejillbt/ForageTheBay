@@ -78,6 +78,10 @@ class Food {
 
 ![](https://github.com/maisiejillbt/ForageTheBay/blob/f90c812d70b6cc951ba3a3e4b4ad18e3d226f660/dist/assets/gifs/forage-foods.gif)
 
+## Technologies 
+
+This project uses Vanilla JavaScript and SCSS. 
+
 
 # Thank you to OHNO for the beautiful Swear Deck Display font. 
   - OHNO https://ohnotype.co/
