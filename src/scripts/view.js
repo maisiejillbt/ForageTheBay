@@ -125,24 +125,18 @@ class View {
     }
   }
 
-  addOnClicks(){ // would love to spend more time on this and see if I can refactor for a SVG
-    let spring = document.querySelector('#spring')
-    let summer = document.querySelector('#summer')
-    let autumn = document.querySelector('#autumn')
-    let winter = document.querySelector('#winter')
+  addOnClicks(){ 
+    const seasons = ["spring", "summer", "fall", "winter"]; 
+    for(let i = 0; i < 4; i++){
+      let season = document.getElementById(seasons[i]);
+      season.addEventListener("click", this.mapClickHandler.bind(this,'',seasons[i]));
+    }
 
-    spring.addEventListener("click", this.mapClickHandler.bind(this,'','spring'));
-    summer.addEventListener("click", this.mapClickHandler.bind(this,'','summer'));
-    autumn.addEventListener("click", this.mapClickHandler.bind(this,'','fall'));
-    winter.addEventListener("click", this.mapClickHandler.bind(this,'','winter'));
-
-    let SP = document.querySelector('#SP')
-    let RP = document.querySelector('#RP')
-    let GG = document.querySelector('#GG')
-
-    SP.addEventListener("click", this.mapClickHandler.bind(this,'SP',''));
-    RP.addEventListener("click", this.mapClickHandler.bind(this,'PR',''));
-    GG.addEventListener("click", this.mapClickHandler.bind(this,'GG',''));
+    const parks = ['SP','RP','GG'];
+    for(let i=0; i < 3; i++){
+      let park = document.getElementById(parks[i]); 
+      park.addEventListener("click", this.mapClickHandler.bind(this,parks[i],''));
+    }
   }
 
 }

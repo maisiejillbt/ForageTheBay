@@ -75,7 +75,7 @@ document.write('\
         <g id="fallUnderline" class="underline fall intro">\
           <rect x="85.65" y="460.57" class="st0" width="165.42" height="14.59"/>\
         </g>\
-        <g id="autumn" class="season" pointer-events="bounding-box">\
+        <g id="fall" class="season" pointer-events="bounding-box">\
           <g>\
             <path d="M104.08,468.86H93.82l0.36-1.53l0.9-0.36c1.53-0.58,3.06-3.11,17.91-25.74h1.76c0.4,3.01,1.57,8.82,2.38,13\
               c1.62,9.4,1.98,12.15,3.42,12.82l0.54,0.27l-0.36,1.53h-11.38l0.36-1.58l2.56-0.22c1.4-0.18,2.07-0.63,2.07-1.62\

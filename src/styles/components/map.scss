@@ -85,7 +85,7 @@
 
 // ====== fall ======
 
-#autumn{
+#fall{
   -webkit-animation: 5s ease 0s normal forwards 1 fadein;
   animation: 5s ease 0s normal forwards 1 fadein;
 }
@@ -124,7 +124,7 @@
   animation: click 1s forwards 0s;
 }
 
-#spring, #summer, #autumn, #winter {
+#spring, #summer, #fall, #winter {
   :hover{
     transform: translateY(-3px)
   }
