@@ -19,7 +19,6 @@ class Food {
   }
 
   generateFoodInfo() { 
-    const foodInfoContainer = document.querySelector('.food-container');
     const foodDiv = document.createElement('div');
     const foodName = document.createElement('h2');
     const foodURL = document.createElement('a');
@@ -38,6 +37,7 @@ class Food {
     foodDiv.appendChild(foodURL);
     foodDiv.appendChild(foodDesc);
 
+    const foodInfoContainer = document.querySelector('.food-container');
     foodInfoContainer.appendChild(foodDiv);
   }
 }

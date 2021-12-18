@@ -95,6 +95,12 @@ a {
   color: #2A3C24;
 }
 
+h1 {
+  margin: 0px;
+  color: #2A3C24;
+  font-family: "Swear Display";
+}
+
 h2 {
   font-family: "Swear Display";
   font-style: italic;
@@ -170,9 +176,7 @@ h3 {
   -webkit-animation: fadeIn 10s ease 0s normal forwards;
 }
 .intro #intro1 h1 {
-  font-family: "Swear Display";
   font-size: 80px;
-  margin: 0px;
   margin-bottom: 10px;
   margin-left: -30px;
   animation: fadeIn 2s ease-in 0s normal forwards;
@@ -223,7 +227,6 @@ h3 {
   }
   .intro #intro1 h1 {
     font-size: 35px;
-    margin: 0px;
     margin-bottom: 10px;
   }
   .intro #intro1 h3 {
@@ -277,17 +280,12 @@ h3 {
   }
 }
 h1 {
-  margin: 0px;
-  margin-left: 15px;
   font-size: 40px;
-  color: #2A3C24;
-  font-family: "Swear Display";
-  font-style: italic;
   text-align: left;
 }
 
 header {
-  margin-left: 60px;
+  margin-left: 75px;
   animation: fadeIn 2s ease-in 0s normal forwards;
   -webkit-animation: fadeIn 2s ease-in 0s normal forwards;
 }
@@ -308,15 +306,6 @@ header {
     opacity: 1;
   }
 }
-img {
-  max-width: 200px;
-  height: fit-content;
-  opacity: 0;
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -webkit-animation-fill-mode: forwards;
-}
-
 .food-sidebar {
   height: 100vh;
   width: 100%;
@@ -327,6 +316,14 @@ img {
   justify-content: space-evenly;
   align-content: flex-start;
   overflow-x: scroll;
+}
+.food-sidebar img {
+  max-width: 200px;
+  height: fit-content;
+  opacity: 0;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -webkit-animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {
