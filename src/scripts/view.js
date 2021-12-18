@@ -1,6 +1,7 @@
 const data = require("./data.js")
 const food = require("./food.js")
 const park = require("./park.js")
+const intro = require("./intro.js")
 
 
 class View {
@@ -8,15 +9,11 @@ class View {
     this.season = 'spring';
     this.park = 'SP';
     this.food;
-    this.introComplete = false;
-  }
-
-  changeSeason(season){
-    this.season = season;
-  }
-
-  changePark(park){
-    this.park = park; 
+    this.intro = document.querySelector(".intro")
+    this.intro1Complete = false;
+    this.intro2Complete = false;
+    this.addOnClicks();
+    intro.generateIntro()
   }
 
   displayFoods(foods) {
@@ -59,52 +56,44 @@ class View {
     parkObj.generateParkDiv();
   }
 
-  mapClickHandler(park,season){
+
+  changeSeason(season){
+    this.season = season;
+  }
+
+  changePark(park){
+    this.park = park; 
+  }
+
+  displayParkAndFoods(){
+    let parkData = data.filterPark(this.park);
+    let foods = data.filterFood(this.park,this.season);
+    this.displayPark(parkData);
+    this.displayFoods(foods);
+    this.addFoodOnClicks() // can only add the listeners after the items are generated and displayed
+
+    if(!this.intro1Complete) {
+      intro.clearMapIntroAnimation();
+      intro.startIntro2();
+      this.intro1Complete = true; 
+    };
+  }
+
+  parkClickHandler(park){
+    this.changePark(park);
+    //displaying park & food data
+    this.displayParkAndFoods();
+  }
+
+  seasonClickHandler(season){
     // adding and removing underlines from season
     const prevSeasonUnderline = document.querySelector(`#${this.season}Underline`);
     prevSeasonUnderline ? prevSeasonUnderline.style.display = "none" : null; 
-
-    !park ? park = this.park : this.changePark(park);
-    !season ? season = this.season : this.changeSeason(season);
-
+    this.changeSeason(season);
     const newSeasonUnderline = document.querySelector(`#${season}Underline`);
     newSeasonUnderline.style.display = "block";
-
     //displaying park & food data
-    let parkData = data.filterPark(this.park);
-    let foods = data.filterFood(this.park,this.season);
-
-    this.displayPark(parkData);
-    this.displayFoods(foods);
-
-    this.addFoodOnClicks() // can only add the listeners after the items are generated and displayed
-    // I would like to refactor this into another function
-
-    // removing inital shadow bounce from parks
-    const parks = document.querySelectorAll('.park'); 
-
-
-    if(!this.introComplete){
-      this.introComplete = true;
-      this.removeIntroUnderlines();
-    }
-  
-    if (parks[0].id === "parkShadow") {
-      for (let i = 0; i < 3; i++) {
-        parks[i].removeAttribute('id');
-      }
-      document.querySelector('.introBox1').style.display = 'none';
-      document.querySelector('.introBox2').style.display = 'block'
-    }  
-
-  }
-
-  removeIntroUnderlines(){
-    const underlines = document.querySelectorAll('.underline'); 
-    for(let i=0; i<4; i++){
-      i > 0 ? underlines[i].style.display = 'none' : null;
-      underlines[i].classList.remove("intro");
-    }
+    this.displayParkAndFoods();
   }
 
   foodClickHandler(foodId){
@@ -113,8 +102,12 @@ class View {
     }
     this.food = document.getElementById(`${foodId}`);
     this.food.style.display = 'block';
-    const foodIntro = document.querySelector('.introBox2'); 
-    foodIntro.style.display = 'none';
+
+    // removing second intro 
+    if(!this.intro2Complete) {
+      this.removeEle('intro', 'intro2');
+      this.intro2Complete = true;
+    };
   }
 
   addFoodOnClicks() { // cannot be done at run time because divs are dynamically generated
@@ -122,21 +115,27 @@ class View {
     for (let i =0; i < foodIcons.length; i++) {
       let food = foodIcons[i]; 
       food.addEventListener('click', this.foodClickHandler.bind(this,food.id))
-    }
+    };
   }
 
   addOnClicks(){ 
     const seasons = ["spring", "summer", "fall", "winter"]; 
     for(let i = 0; i < 4; i++){
       let season = document.getElementById(seasons[i]);
-      season.addEventListener("click", this.mapClickHandler.bind(this,'',seasons[i]));
+      season.addEventListener("click", this.seasonClickHandler.bind(this,seasons[i]));
     }
 
-    const parks = ['SP','RP','GG'];
+    const parks = ['SP','PR','GG'];
     for(let i=0; i < 3; i++){
       let park = document.getElementById(parks[i]); 
-      park.addEventListener("click", this.mapClickHandler.bind(this,parks[i],''));
+      park.addEventListener("click", this.parkClickHandler.bind(this,parks[i]));
     }
+  }
+
+  removeEle(parentClass, removeId){
+    const removeEle = document.getElementById(removeId); 
+    const parentEle = document.querySelector(`.${parentClass}`)
+    parentEle.removeChild(removeEle); 
   }
 
 }

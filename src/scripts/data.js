@@ -1,7 +1,6 @@
 const foods = require('../data/foods.json');
 const parks = require('../data/parks.json');
 
-
 function filterFood(park, season) {
   const filtered = [];
   foods.forEach(element => {
