@@ -1,25 +1,13 @@
-.food-container{
-  margin-top: 290px;
-  margin-bottom: 10px;
-  left: 40px;
-  color: $kombuGreen;
-}
-
 .food-info {
+  top: 290px;
   position: absolute;
   left: 550px;
   max-width: 270px;
   display:none;
   animation: fadeIn 2s;
+  animation-fill-mode: forwards;
   -webkit-animation: fadeIn 2s;
   -webkit-animation-fill-mode: forwards;
-
-  a {
-    font-family: 'Montserrat';
-    color: $kombuGreen;
-    font-size: 15;
-    font-weight: bold;
-  }
 
   h2 {
     margin-bottom: 10px;
@@ -32,23 +20,19 @@
   }
 }
 
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
 @media only screen and (max-width: 1000px) {
    .food-container {
-      display:flex;
-      margin-top:0;
-      width: 100%;
-      margin-left:0;
+      display:flex; 
    }
    .food-info{
-     width: 100%;
      max-width: 100%;
      margin-top:20px;
      position: static;
      left: 0;
    }
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }

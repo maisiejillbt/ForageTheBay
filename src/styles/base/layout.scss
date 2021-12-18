@@ -24,7 +24,16 @@ svg {
 }
 
 p {
+  font-family: 'Montserrat';
   margin: 5px;
+  color:$kombuGreen;
+}
+
+a {
+  font-family: 'Montserrat';
+  font-size: 15;
+  font-weight: bold;
+  color:$kombuGreen;
 }
 
 #linkdin, #github {

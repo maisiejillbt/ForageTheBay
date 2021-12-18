@@ -83,7 +83,16 @@ svg {
 }
 
 p {
+  font-family: "Montserrat";
   margin: 5px;
+  color: #2A3C24;
+}
+
+a {
+  font-family: "Montserrat";
+  font-size: 15;
+  font-weight: bold;
+  color: #2A3C24;
 }
 
 #linkdin, #github {
@@ -140,10 +149,7 @@ p {
   z-index: -1;
 }
 .intro #intro1 p {
-  font-family: "Montserrat";
-  font-size: 20;
   width: 500px;
-  color: #2A3C24;
   font-weight: 100;
   margin-bottom: 10px;
   margin-left: 20px;
@@ -192,6 +198,38 @@ p {
   animation: shadow 3s ease-in-out infinite;
 }
 
+@media only screen and (max-width: 1000px) {
+  .intro #intro1 {
+    position: absolute;
+    width: 500px;
+    left: 170px;
+    top: 120px;
+    margin: 0;
+    z-index: -1;
+  }
+  .intro #intro1 p {
+    width: 330px;
+    margin: 0;
+    margin-left: 35px;
+    font-size: 16px;
+  }
+  .intro #intro1 h1 {
+    font-size: 35px;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .intro #intro1 h3 {
+    width: 330px;
+    margin-top: 10px;
+    margin-left: 55px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .intro #intro2 {
+    left: 50px;
+    top: 470px;
+  }
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -228,41 +266,6 @@ p {
   }
   100% {
     filter: drop-shadow(0px 10px 5px #2A3C24);
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .intro #intro1 {
-    position: absolute;
-    width: 500px;
-    left: 170px;
-    top: 120px;
-    margin: 0;
-    z-index: -1;
-  }
-  .intro #intro1 p {
-    width: 330px;
-    margin: 0;
-    margin-left: 35px;
-    font-size: 16px;
-  }
-  .intro #intro1 h1 {
-    font-size: 35px;
-    margin: 0px;
-    margin-bottom: 10px;
-  }
-  .intro #intro1 h3 {
-    width: 330px;
-    margin-top: 10px;
-    margin-left: 55px;
-    font-size: 14px;
-    text-align: center;
-  }
-  .intro #intro2 {
-    left: 50px;
-    top: 470px;
-  }
-  .intro #intro2 h3 {
-    width: 300px;
   }
 }
 h1 {
@@ -538,11 +541,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-p {
-  font-family: "Montserrat";
-  font-size: 20;
-}
-
 .info-item-container {
   display: flex;
 }
@@ -569,27 +567,16 @@ p {
     margin: 0;
   }
 }
-.food-container {
-  margin-top: 290px;
-  margin-bottom: 10px;
-  left: 40px;
-  color: #2A3C24;
-}
-
 .food-info {
+  top: 290px;
   position: absolute;
   left: 550px;
   max-width: 270px;
   display: none;
   animation: fadeIn 2s;
+  animation-fill-mode: forwards;
   -webkit-animation: fadeIn 2s;
   -webkit-animation-fill-mode: forwards;
-}
-.food-info a {
-  font-family: "Montserrat";
-  color: #2A3C24;
-  font-size: 15;
-  font-weight: bold;
 }
 .food-info h2 {
   margin-bottom: 10px;
@@ -600,27 +587,23 @@ p {
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .food-container {
+    display: flex;
+  }
+
+  .food-info {
+    max-width: 100%;
+    margin-top: 20px;
+    position: static;
+    left: 0;
+  }
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .food-container {
-    display: flex;
-    margin-top: 0;
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .food-info {
-    width: 100%;
-    max-width: 100%;
-    margin-top: 20px;
-    position: static;
-    left: 0;
   }
 }

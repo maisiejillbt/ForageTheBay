@@ -40,11 +40,9 @@ function intro1(){
 
   welcome.innerText = "Welcome";
   intro.innerText = 
-  `I created Forage the Bay as an easy to use visual 
-  tool for foragers of all skill levels.`;
+  `I created Forage the Bay as an easy to use visual tool for foragers of all skill levels.`;
   dirs.innerText = 
-  `To get started click on one of the 
-  highlighted public parks or seasons`;
+  `To get started click on one of the highlighted public parks or seasons`;
 
   intro1.appendChild(welcome);
   intro1.appendChild(intro);

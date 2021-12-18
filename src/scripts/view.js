@@ -99,7 +99,7 @@ class View {
     const foodIcons = document.querySelectorAll('.food-icon'); 
     for (let i =0; i < foodIcons.length; i++) {
       let food = foodIcons[i]; 
-      food.addEventListener('click', this.currentFoodDetailsClickHandler.bind(this,food.id));
+      food.addEventListener('click', this.foodClickHandler.bind(this,food.id));
     };
   }
 
