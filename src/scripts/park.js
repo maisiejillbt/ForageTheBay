@@ -12,11 +12,8 @@ class Park { // I want to add in park website
   }
 
   generateParkDiv() {
-    const parkSidebar = document.querySelector('.park-sidebar');
-
     const parkInfo = [this.address, this.hours, this.restrictions, this.bagLimits, this.fees];
     const displayTags = ['Address:', 'Hours:', 'Restrictions:', 'Bag Limits:', 'Fees:'];
-
     const parkDiv = document.createElement('div');
     parkDiv.classList.add('park-info')
     
@@ -30,7 +27,6 @@ class Park { // I want to add in park website
         let display = document.createElement('h3');
         let container = document.createElement('div');
         
-
         display.innerText = `${displayTags[i]}`;
         info.innerText = `${parkInfo[i]}`;
         container.appendChild(display);
@@ -38,6 +34,7 @@ class Park { // I want to add in park website
         parkDiv.appendChild(container);
       }
     }
+    const parkSidebar = document.querySelector('.park-sidebar');
     parkSidebar.appendChild(parkDiv);
   }
 }
