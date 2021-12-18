@@ -8,12 +8,12 @@ class View {
   constructor() {
     this.season = 'spring';
     this.park = 'SP';
-    this.food;
+    this.currentFoodDetails;
     this.intro = document.querySelector(".intro")
     this.intro1Complete = false;
     this.intro2Complete = false;
 
-    this.addOnClicks();
+    this.addMapOnClicks();
     intro.generateIntro();
   }
 
@@ -22,18 +22,13 @@ class View {
     foodSidebar.innerHTML = "";
     const foodInfoContainer = document.querySelector('.food-container');
     foodInfoContainer.innerHTML = "";
-
     for(let i = 0; i < foods.length; i++){
       let currentFood = foods[i];
       let foodObj = new Food( // creating new food object
-        currentFood.foodId,
-        currentFood.foodName,
-        currentFood.park,
-        currentFood.season,
-        currentFood.wiki,
-        currentFood.photo,
+        currentFood.foodId, currentFood.foodName,
+        currentFood.park, currentFood.season,
+        currentFood.wiki, currentFood.photo,
         currentFood.description);
-
       foodObj.generateFoodSidebar(); // generating div and rendering
       foodObj.generateFoodInfo(); // generating div and rendering
     }
@@ -44,42 +39,16 @@ class View {
     parkSidebar.innerHTML = ""; //reset the info in sidebar
     currentPark = currentPark[0];
     let parkObj = new Park(
-      currentPark.parkId,
-      currentPark.parkName,
-      currentPark.address,
-      currentPark.hours,
-      currentPark.parkDescription,
-      currentPark.restrictions,
-      currentPark.bagLimits,
-      currentPark.fees
+      currentPark.parkId, currentPark.parkName,
+      currentPark.address, currentPark.hours,
+      currentPark.parkDescription, currentPark.restrictions,
+      currentPark.bagLimits, currentPark.fees
       );
     parkObj.generateParkDiv();
   }
 
-
-  changeSeason(season){
-    this.season = season;
-  }
-
-  changePark(park){
-    this.park = park; 
-  }
-
-  displayParkAndFoods(){
-    let parkData = data.filterPark(this.park);
-    let foods = data.filterFood(this.park,this.season);
-    this.displayPark(parkData);
-    this.displayFoods(foods);
-    this.addFoodOnClicks() // can only add the listeners after the items are generated and displayed
-
-    if(!this.intro1Complete) {
-      intro.startIntro2();
-      this.intro1Complete = true; 
-    };
-  }
-
   parkClickHandler(park){
-    this.changePark(park);
+    this.park = park; 
     //displaying park & food data
     this.displayParkAndFoods();
   }
@@ -88,36 +57,53 @@ class View {
     // adding and removing underlines from season
     const prevSeasonUnderline = document.querySelector(`#${this.season}Underline`);
     prevSeasonUnderline ? prevSeasonUnderline.style.display = "none" : null; 
-    this.changeSeason(season);
     const newSeasonUnderline = document.querySelector(`#${season}Underline`);
     newSeasonUnderline.style.display = "block";
     //displaying park & food data
+    this.season = season;
     this.displayParkAndFoods();
   }
 
-  foodClickHandler(foodId){
-    if (this.food) {
-      this.food.style.display = 'none'; // check if there was a food displayed previously and remove them
-    }
-    this.food = document.getElementById(`${foodId}`);
-    this.food.style.display = 'block';
+  displayParkAndFoods(){
+    let parkData = data.filterPark(this.park);
+    let foods = data.filterFood(this.park,this.season);
+    this.displayPark(parkData);
+    this.displayFoods(foods);
+    this.addFoodOnClicks(); // can only add the listeners after the items 
+    //are generated and displayed
 
-    // removing second intro 
+    // starting second intro box 
+    if(!this.intro1Complete) {
+      intro.startIntro2();
+      this.intro1Complete = true; 
+    };
+  }
+
+  foodClickHandler(foodId){
+    if (this.currentFoodDetails) {
+      // check if there were food details displayed previously and remove them
+      this.currentFoodDetails.style.display = 'none'; 
+    }
+    // update and display the selected foods details
+    this.currentFoodDetails = document.getElementById(`${foodId}`);
+    this.currentFoodDetails.style.display = 'block';
+
+    // removing second intro if applicable 
     if(!this.intro2Complete) {
       this.removeEle('intro', 'intro2');
       this.intro2Complete = true;
     };
   }
 
-  addFoodOnClicks() { // cannot be done at run time because divs are dynamically generated
+  addFoodOnClicks() { // cannot be done with other onClicks because foods arent yet displayed
     const foodIcons = document.querySelectorAll('.food-icon'); 
     for (let i =0; i < foodIcons.length; i++) {
       let food = foodIcons[i]; 
-      food.addEventListener('click', this.foodClickHandler.bind(this,food.id))
+      food.addEventListener('click', this.currentFoodDetailsClickHandler.bind(this,food.id));
     };
   }
 
-  addOnClicks(){ 
+  addMapOnClicks(){ 
     const seasons = ["spring", "summer", "fall", "winter"]; 
     for(let i = 0; i < 4; i++){
       let season = document.getElementById(seasons[i]);
@@ -135,7 +121,6 @@ class View {
     const parentEle = document.querySelector(`.${parentClass}`)
     parentEle.removeChild(removeEle); 
   }
-
 }
 
 export default View;
