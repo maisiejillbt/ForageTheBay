@@ -1,7 +1,7 @@
-const data = require("./data.js")
-const food = require("./food.js")
-const park = require("./park.js")
-const intro = require("./intro.js")
+const data = require("./data.js");
+const intro = require("./intro.js");
+import Food from "./food.js";
+import Park from "./park.js"; 
 
 
 class View {
@@ -12,8 +12,9 @@ class View {
     this.intro = document.querySelector(".intro")
     this.intro1Complete = false;
     this.intro2Complete = false;
+
     this.addOnClicks();
-    intro.generateIntro()
+    intro.generateIntro();
   }
 
   displayFoods(foods) {
@@ -24,7 +25,7 @@ class View {
 
     for(let i = 0; i < foods.length; i++){
       let currentFood = foods[i];
-      let foodObj = new food.Food( // creating new food object
+      let foodObj = new Food( // creating new food object
         currentFood.foodId,
         currentFood.foodName,
         currentFood.park,
@@ -35,7 +36,6 @@ class View {
 
       foodObj.generateFoodSidebar(); // generating div and rendering
       foodObj.generateFoodInfo(); // generating div and rendering
-
     }
   }
 
@@ -43,7 +43,7 @@ class View {
     const parkSidebar = document.querySelector('.park-sidebar');
     parkSidebar.innerHTML = ""; //reset the info in sidebar
     currentPark = currentPark[0];
-    let parkObj = new park.Park(
+    let parkObj = new Park(
       currentPark.parkId,
       currentPark.parkName,
       currentPark.address,
@@ -73,7 +73,6 @@ class View {
     this.addFoodOnClicks() // can only add the listeners after the items are generated and displayed
 
     if(!this.intro1Complete) {
-      intro.clearMapIntroAnimation();
       intro.startIntro2();
       this.intro1Complete = true; 
     };
@@ -124,7 +123,6 @@ class View {
       let season = document.getElementById(seasons[i]);
       season.addEventListener("click", this.seasonClickHandler.bind(this,seasons[i]));
     }
-
     const parks = ['SP','PR','GG'];
     for(let i=0; i < 3; i++){
       let park = document.getElementById(parks[i]); 

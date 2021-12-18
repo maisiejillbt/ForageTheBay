@@ -42,5 +42,5 @@ class Food {
   }
 }
 
-export {Food};
+export default Food;
 

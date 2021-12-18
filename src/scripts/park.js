@@ -45,4 +45,4 @@ class Park { // I want to add in park website
   }
 }
 
-export {Park};
+export default Park;

@@ -1,12 +1,24 @@
+// ========== EXPORTED FUNCTIONS 
+// generateIntro
+// startIntro2
+
+// ========== NON EXPORTED FUNCTIONS
+// intro1
+// addIntroUnderlines
+// removeIntroUnderlines
+// clearMapIntroAnimation
+// removeEle
+
 // ===== Exported functions =====
 
 export const generateIntro = () => { 
   const introBox = document.querySelector('.intro');
-  introBox.appendChild(generateIntro1());
+  introBox.appendChild(intro1());
   addIntroUnderlines();
 }
 
 export const startIntro2 = () => {
+  clearMapIntroAnimation();
   const introBox = document.querySelector('.intro');
   const intro2 = document.createElement('div'); 
 
@@ -17,20 +29,9 @@ export const startIntro2 = () => {
   introBox.append(intro2);
 }
 
-export const clearMapIntroAnimation = () => {
-  const parks = document.querySelectorAll('.park'); 
-  removeIntroUnderlines();
-  removeEle('intro','intro1');
-  if (parks[0].id === "parkShadow") {
-    for (let i = 0; i < 3; i++) {
-      parks[i].removeAttribute('id');
-    }
-  } 
-}
-
 // ===== Non-Exported Functions =====
 
-function generateIntro1(){
+function intro1(){
   const intro1 = document.createElement('div');
   intro1.id = "intro1";
   const welcome = document.createElement('h1');
@@ -65,6 +66,19 @@ function removeIntroUnderlines(){
     i > 0 ? underlines[i].style.display = 'none' : null;
     underlines[i].classList.remove("intro");
   }
+}
+
+function clearMapIntroAnimation() {
+  const parks = document.querySelectorAll('.park'); 
+  removeIntroUnderlines();
+  // removing the first intro box 
+  removeEle('intro','intro1');
+  // removing the parkShadow animation
+  if (parks[0].id === "parkShadow") {
+    for (let i = 0; i < 3; i++) {
+      parks[i].removeAttribute('id');
+    }
+  } 
 }
 
 function removeEle(parentClass, removeId){
