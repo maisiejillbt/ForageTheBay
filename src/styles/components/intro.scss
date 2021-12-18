@@ -17,8 +17,6 @@
 
     h1 {
       font-family: 'Swear Display';
-      font-style: italic;
-      color: $kombuGreen; 
       font-size: 80px;
       margin:0px;
       margin-bottom: 10px;
@@ -33,7 +31,6 @@
       font-weight: bolder;
       margin-left: 50px;
       width: 550px;
-      color: $kombuGreen; 
       animation: fadeIn 10s ease-in 0s normal forwards, shadow 3s ease-in-out infinite;
       -webkit-animation: fadeIn 10s ease 0s normal forwards, shadow 3s ease-in-out infinite;
     }
@@ -48,10 +45,8 @@
     z-index: -1;
 
     h3 {
-    font-family: 'Swear Display';
     font-size: 25px;
     width: 300px;
-    color: $kombuGreen; 
     animation: fadeIn 5s ease-in 0s normal forwards, shadow 3s ease-in-out infinite;
     -webkit-animation: fadeIn 5s ease 0s normal forwards, shadow 3s ease-in-out infinite;
     }

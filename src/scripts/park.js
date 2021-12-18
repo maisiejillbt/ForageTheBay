@@ -19,7 +19,7 @@ class Park { // I want to add in park website
 
     const parkDiv = document.createElement('div');
     parkDiv.classList.add('park-info')
-    ;
+    
     const parkName = document.createElement('h2');
     parkName.innerText =`${this.parkName}`
     parkDiv.appendChild(parkName)
@@ -27,15 +27,12 @@ class Park { // I want to add in park website
     for (let i = 0; i < parkInfo.length; i++) {
       if (parkInfo[i]){
         let info = document.createElement('p');
-        let display = document.createElement('p');
+        let display = document.createElement('h3');
         let container = document.createElement('div');
         
-        container.classList.add('info-item-container');
 
         display.innerText = `${displayTags[i]}`;
         info.innerText = `${parkInfo[i]}`;
-        info.classList.add('info-item');
-        display.classList.add('info-item-display');
         container.appendChild(display);
         container.appendChild(info);
         parkDiv.appendChild(container);
